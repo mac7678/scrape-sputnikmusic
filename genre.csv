@@ -1,0 +1,76 @@
+Genre,SubGenre,superhtml,htmllink,Main
+Alternative Rock,Indie Rock,alternative-rock,indie-rock,TRUE
+Alternative Rock,Post Rock,alternative-rock,post-rock,TRUE
+Alternative Rock,Indie Pop,alternative-rock,indie-pop,TRUE
+Alternative Rock,Shoegaze,alternative-rock,shoegaze,TRUE
+Alternative Rock,Lo-fi,alternative-rock,lo-fi,TRUE
+Alternative Rock,Indie Folk,alternative-rock,indie-folk,TRUE
+Electronic,Ambient,electronic,ambient,TRUE
+Electronic,Techno,electronic,techno,TRUE
+Electronic,House,electronic,house,TRUE
+Electronic,Drum and Bass,electronic,drum-and-bass,TRUE
+Electronic,Dubstep,electronic,dubstep,TRUE
+Electronic,Downtempo,electronic,downtempo,TRUE
+Jazz,Experimental,jazz,experimental,TRUE
+Hip-Hop,Hip-Hop,hip-hop,hip-hop,TRUE
+Jazz,Jazz Fusion,jazz,jazz-fusion,TRUE
+Metal,Death Metal,metal-,death-metal,TRUE
+Metal,Black Metal,metal-,black-metal,TRUE
+Metal,Metalcore,metal-,metalcore,TRUE
+Metal,Thrash Metal,metal-,thrash-metal,TRUE
+Metal,Doom Metal,metal-,doom-metal,TRUE
+Metal,Progressive Metal,metal-,progressive-metal,TRUE
+Pop,Pop Rock,pop-,pop-rock,TRUE
+Pop,Dream Pop,pop-,dream-pop,TRUE
+Pop,Britpop,pop-,britpop,TRUE
+Punk,Hardcore,punk,hardcore,TRUE
+Punk,Post Hardcore,punk,post-hardcore,TRUE
+Punk,Emo,punk,emo,TRUE
+Punk,Pop Punk,punk,pop-punk,TRUE
+Punk,Post Punk,punk,post-punk,TRUE
+Punk,Ska,punk,ska,TRUE
+Rock,Folk,rock,folk,TRUE
+Rock,Progressive Rock,rock,progressive-rock,TRUE
+Rock,Psychedelic,rock,psychedelic,TRUE
+Rock,Hard Rock,rock,hard-rock,TRUE
+Rock,Stoner Rock,rock,stoner-rock,TRUE
+Rock,Blues,rock,blues,TRUE
+Rock,Americana,rock,americana,TRUE
+Rock,Bluegrass,rock,bluegrass,TRUE
+Electronic,Breaks,electronic,breaks,TRUE
+Classical,Classical,classical,classical,FALSE
+Country,Country,country,country,FALSE
+Electronic,Drone,electronic,drone,TRUE
+Punk,Folk Punk,punk,folk-punk,TRUE
+Electronic,Garage,electronic,garage,TRUE
+Metal,Gothic,metal-,gothic,TRUE
+Electronic,Grime,electronic,grime,TRUE
+Metal,Grind,metal-,grind,TRUE
+Alternative Rock,Grunge,alternative-rock,grunge,TRUE
+Metal,Heavy Metal,metal-,heavy-metal,TRUE
+Electronic,IDM,electronic,idm,TRUE
+Electronic,Industrial,electronic,industrial,TRUE
+Rock,Jam Rock,rock,jam-rock,TRUE
+Alternative Rock,Math Rock,alternative-rock,math-rock,TRUE
+Metal,Melodic Death Metal,metal-,melodic-death-metal,TRUE
+Electronic,Minimal,electronic,minimal,TRUE
+Rock,New Age,rock,new-age,TRUE
+Alternative Rock,Noise Rock,alternative-rock,noise-rock,TRUE
+Metal,Nu-metal,metal-,nu-metal,TRUE
+Metal,Post Metal,metal-,post-metal,TRUE
+Metal,Power Metal,metal-,power-metal,TRUE
+R&B,R&B,r%26b,r%26b,FALSE
+Reggae,Reggae,reggae,reggae,FALSE
+Metal,Sludge Metal,metal-,sludge-metal,TRUE
+R&B,Soul,r%26b,soul,TRUE
+Soundtrack,Soundtrack,soundtrack,soundtrack,FALSE
+Electronic,Trance,electronic,trance,TRUE
+Electronic,Trip Hop,electronic,trip-hop,TRUE
+Alternative Rock,Alternative Rock,alternative-rock,alternative-rock,TRUE
+Jazz,Jazz,jazz,jazz,TRUE
+Metal,Metal,metal-,metal-,TRUE
+Pop,Pop,pop-,pop-,TRUE
+Punk,Punk,punk,punk,TRUE
+Rock,Rock,rock,rock,TRUE
+Electronic,Electronic,electronic,electronic,TRUE
+Jazz,Funk,jazz,funk,TRUE
