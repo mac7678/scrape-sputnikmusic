@@ -92,6 +92,58 @@ scrape_tags <- function(band_page,genre){ # get genre tags from band_page
   gtags <- data.frame('Genre1'= gtags[1],'Genre2'= gtags[2],'Genre3'= gtags[3])
   return(gtags)
 }
+scrape_soundoff <- function(obj,link){ # function to scrape data 
+  if(!any(class(obj) %in% c("HTMLInternalDocument", "HTMLInternalDocument",
+                           "XMLInternalDocument",  "XMLAbstractDocument")) && is.character(obj)){
+    link <- obj
+    if(!grepl('/soundoff.php',obj)) stop('Character string provided is not a soundoff page')
+    obj <- htmlParse(obj)
+  }
+  if(!any(class(obj) %in% c("HTMLInternalDocument", "HTMLInternalDocument",
+                            "XMLInternalDocument",  "XMLAbstractDocument")) && !is.character(obj)) {
+    stop(paste0('input is not an html object or a character.',
+                'if calling this function directly,',
+                ' ensure that your input is a character ',
+                'string that is the name of sputnikmusic soundoff page.'))
+  }
+  user_links <- grep('/user/',getHTMLLinks(obj),value = TRUE)
+  links <- getHTMLLinks(obj)
+  if(length(grep('/best/albums/',links))>1){ # if theirs more than one link to best albums
+    # ... that means the release year is in the second link
+    release.year <- as.numeric(tail(unlist(strsplit(tail(grep('/best/albums/',links,value = TRUE),1),'/')),1))
+  }else{
+    release.year <- as.numeric(tail(unlist(strsplit(unlist(lapply(xpathSApply(obj, "//b"),xmlToList)[[2]]),'/')),1))
+  }
+  dat<-readHTMLTable(obj,which = 1)
+  if(any(grepl('http:/',user_links))) user_links <- user_links[-grep('http:/',user_links)]
+  dat$V2 <- as.character(dat$V2)
+  names(dat)[1] <- 'Rating'
+  dat <- dat[!is.na(dat$V2),]
+  tmpr <- as.character(dat$V3)
+  tmpr <- tmpr[grep(pattern = 'Rating',tmpr)]
+  tmpr <- as.numeric(substr(tmpr, 10, nchar(tmpr)-1))
+  dat <- dat[c(1,2)]
+  dat$Rating <- as.numeric(substr(dat$Rating,1,3))
+  dat <- dat[!is.na(dat$Rating),]
+  dat <- dat[2:nrow(dat),]
+  # for (i in 1:length(dat$V2))
+  split_rating <- function(dat){
+    tmpstr <- strsplit(x = dat, split = ' | ',fixed = TRUE)
+    out <- data.frame(user = tmpstr[[1]][1],date = tmpstr[[1]][2])
+    return(out)
+  }
+  dat <- data.frame(dat,bind_rows(lapply(dat$V2,split_rating)))
+  user_links <- user_links[dat$Rating>0]
+  dat <- dat[dat$Rating>0,]
+  dat <- dat[, c(1,3,4)]
+  dat$date <- sputdate(dat$date)
+  trim.trailing <- function (x) sub("\\s+$", "", x)
+  dat$user <- trim.trailing(dat$user)
+  dat$userlinks <- substr(user_links,7,nchar(user_links))
+  dat$albumlink <- link
+  dat <- data.frame(release.year,dat)
+  return(dat)
+}
 
 scrapesput <- function(link,sput = 'http://www.sputnikmusic.com/'){ # preload dat with band/album/ and if previously found: genre tags
   genre <- readRDS('genre.rds')
@@ -106,47 +158,7 @@ scrapesput <- function(link,sput = 'http://www.sputnikmusic.com/'){ # preload da
   if(!link %in% getHTMLLinks(band_page) && !is_soundoff){
     return(data.frame())
   }else{
-    scrape_soundoff <- function(){ # function to scrape data 
-      dat<-readHTMLTable(html_page,which = 1)
-      links <- getHTMLLinks(html_page)
-      if(length(grep('/best/albums/',links))>1){ # if theirs more than one link to best albums
-        # ... that means the release year is in the second link
-        release.year <- as.numeric(tail(unlist(strsplit(tail(grep('/best/albums/',links,value = TRUE),1),'/')),1))
-      }else{
-        release.year <- as.numeric(tail(unlist(strsplit(unlist(lapply(xpathSApply(html_page, "//b"),xmlToList)[[2]]),'/')),1))
-        ### NOOOOTTTTT DONNNNEEEE
-      }
-      links <- links[grep('/user/',links)]
-      if(any(grepl('http:/',links))) links <- links[-grep('http:/',links)]
-      dat$V2 <- as.character(dat$V2)
-      names(dat)[1] <- 'Rating'
-      dat <- dat[!is.na(dat$V2),]
-      tmpr <- as.character(dat$V3)
-      tmpr <- tmpr[grep(pattern = 'Rating',tmpr)]
-      tmpr <- as.numeric(substr(tmpr, 10, nchar(tmpr)-1))
-      dat <- dat[c(1,2)]
-      dat$Rating <- as.numeric(substr(dat$Rating,1,3))
-      dat <- dat[!is.na(dat$Rating),]
-      dat <- dat[2:nrow(dat),]
-      # for (i in 1:length(dat$V2))
-      split_rating <- function(dat){
-        tmpstr <- strsplit(x = dat, split = ' | ',fixed = TRUE)
-        out <- data.frame(user = tmpstr[[1]][1],date = tmpstr[[1]][2])
-        return(out)
-      }
-      dat <- data.frame(dat,bind_rows(lapply(dat$V2,split_rating)))
-      links <- links[dat$Rating>0]
-      dat <- dat[dat$Rating>0,]
-      dat <- dat[, c(1,3,4)]
-      dat$date <- sputdate(dat$date)
-      trim.trailing <- function (x) sub("\\s+$", "", x)
-      dat$user <- trim.trailing(dat$user)
-      dat$userlinks <- substr(links,7,nchar(links))
-      dat$albumlink <- link
-      dat <- data.frame(release.year,dat)
-      return(dat)
-    }
-    dat <- scrape_soundoff()
+    dat <- scrape_soundoff(html_page,link)
     if(!is_soundoff){
       album <- scrape_album(band_page,link)
       band <- scrape_band(band_page)
