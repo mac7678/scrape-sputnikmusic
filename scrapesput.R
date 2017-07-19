@@ -37,26 +37,6 @@ find_album <- function(tmp){
   }
   return(newtmp)
 }
-
-sputdate <- function(dates)
-{if(!is.character(dates)) stop('Not readable')
-  s<-c()
-  for (i in 1:length(dates))
-  {
-    tmpdate <- unlist(strsplit(dates[i], ' '))
-    if (length(tmpdate)==1){
-      s[i] <- NA}
-    else
-    {
-      mo <- grep(strsplit(tmpdate, ' ')[1],month.name)
-      da <- as.numeric(substr(tmpdate[2],1,nchar(tmpdate[2])-2))
-      ye <- paste0('20',tmpdate[3])
-      s[i] <- paste(ye,mo,da,sep = "/")
-    }
-  }
-  s <- as.Date(s,"%Y/%m/%d")
-  return(s)
-}
 scrape_band <- function(band_page){
   links <- xpathSApply(band_page, "//b")
   band <- xmlToList(links[[1]]) # get band name
@@ -119,9 +99,6 @@ scrape_soundoff <- function(obj,link){ # function to scrape data
   dat$V2 <- as.character(dat$V2)
   names(dat)[1] <- 'Rating'
   dat <- dat[!is.na(dat$V2),]
-  tmpr <- as.character(dat$V3)
-  tmpr <- tmpr[grep(pattern = 'Rating',tmpr)]
-  tmpr <- as.numeric(substr(tmpr, 10, nchar(tmpr)-1))
   dat <- dat[c(1,2)]
   dat$Rating <- as.numeric(substr(dat$Rating,1,3))
   dat <- dat[!is.na(dat$Rating),]
@@ -136,12 +113,32 @@ scrape_soundoff <- function(obj,link){ # function to scrape data
   user_links <- user_links[dat$Rating>0]
   dat <- dat[dat$Rating>0,]
   dat <- dat[, c(1,3,4)]
+  sputdate <- function(dates){
+    if(!is.character(dates)) stop('Not readable')
+    s<-c()
+    for (i in 1:length(dates))
+    {
+      tmpdate <- unlist(strsplit(dates[i], ' '))
+      if (length(tmpdate)==1){
+        s[i] <- NA}
+      else
+      {
+        mo <- grep(strsplit(tmpdate, ' ')[1],month.name)
+        da <- as.numeric(substr(tmpdate[2],1,nchar(tmpdate[2])-2))
+        ye <- paste0('20',tmpdate[3])
+        s[i] <- paste(ye,mo,da,sep = "/")
+      }
+    }
+    s <- as.Date(s,"%Y/%m/%d")
+    return(s)
+  }
   dat$date <- sputdate(dat$date)
   trim.trailing <- function (x) sub("\\s+$", "", x)
   dat$user <- trim.trailing(dat$user)
   dat$userlinks <- substr(user_links,7,nchar(user_links))
   dat$albumlink <- link
   dat <- data.frame(release.year,dat)
+  dat <- dat[order(dat$date,decreasing = TRUE),]
   return(dat)
 }
 
@@ -181,4 +178,12 @@ scrapesput <- function(link,sput = 'http://www.sputnikmusic.com/'){ # preload da
 
 sputurl <- 'http://www.sputnikmusic.com/album/14363/maudlin-of-the-Well-My-Fruit-Psychobells...-A-Seed-Combustible/'
 dat <- scrapesput(sputurl)
+# histogram of ratings
+hist(dat$Rating,main = 'A Middle Finger',xlab = 'Rating',ylab='Count')
+# timeseries plot
+with(dat,plot(date,Rating,'l',main='Timeseries'))
+# smoothed timeseries plot
+with(dat,plot(date,Rating,'l',main='Smoothed Timeseries'))
+lines(dat$date[!is.na(dat$date)],
+      loess(Rating~as.numeric(date),dat,span = .5)$fitted,'l',col = 'red')
 ###########################
