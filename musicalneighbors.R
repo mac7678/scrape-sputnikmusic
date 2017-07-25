@@ -8,7 +8,8 @@ find_user <- function(user){ # find users rating page
   sput <- 'http://www.sputnikmusic.com/user/'
   site_links <- getHTMLLinks(paste0(sput,user))
   userid <- tail(unlist(strsplit(grep('/uservote.php',site_links,value = TRUE),'=')),1)
-  ratepage <- paste0('http://www.sputnikmusic.com/uservote.php?sort=1&memberid=',userid) 
+  ratepage <- paste0('http://www.sputnikmusic.com/uservote.php?sort=1&memberid=',userid)
+  return(ratepage)
 }
 get_ratings <- function(siteobj){ # get the ratings from the page
   b_tag <- xpathSApply(siteobj,'//b')
@@ -19,9 +20,10 @@ get_ratings <- function(siteobj){ # get the ratings from the page
 get_albums <- function(siteobj){ # get album names from the page
   links <- getHTMLLinks(siteobj)
   albums <- strsplit_last(grep('^/album/',links,value = TRUE))
+  return(albums)
 }
 scrape_user <- function(user){ # get album and rating information from a user
-  if(!is.character(user)) error("*user* has to be a character string")
+  if(!is.character(user)) stop("*user* has to be a character string")
   user_site <- find_user(user)
   # find the easiest table to load and then get links from
   siteobj <- htmlParse(user_site)
@@ -29,11 +31,11 @@ scrape_user <- function(user){ # get album and rating information from a user
   if(length(dat$album)==0 || all(is.na(dat$Rating))) return(list()) else return(as.data.frame(dat,stringsAsFactors = FALSE))
   free(siteobj)
 }
-prepare_sim_matrix <- function(tmp){ # make large user x rating matrix
+prepare_sim_matrix <- function(tmp,user){ # make large user x rating matrix
   albums <- sort(unique(tmp$album))
   user_mat <- matrix(0,length(unique(tmp$user)),length(albums))
   colnames(user_mat) <- albums
-  rownames(user_mat) <- unique(tmp$user)
+  rownames(user_mat) <- unique(c(user,tmp$user))
   for(i in 1:nrow(user_mat)){
     user_mat[i,tmp$album[tmp$user==rownames(user_mat)[i]]] <- tmp$Rating[tmp$user==rownames(user_mat)[i]]
   }
@@ -45,16 +47,16 @@ cos.sim=function(ma, mb){ # cosine similarity courtesy of https://stats.stackexc
   t2=sqrt(apply(mb, 1, crossprod))
   mat / outer(t1,t2)
 }
-calc_neighbors <- function(user,neighbors,n_toprint=10){
+calc_neighbors <- function(user,neighbors,n_toprint=10,dat=c()){
   if(length(neighbors) < n_toprint) n_toprint <- length(neighbors)
-  dat <- bind_rows(lapply(c(user,neighbors),scrape_user))
-  sim_mat <- prepare_sim_matrix(dat)
+  if(length(dat)==0) dat <- bind_rows(lapply(c(user,neighbors),scrape_user))
+  sim_mat <- prepare_sim_matrix(dat,user)
   neighbor_scores <- cos.sim(sim_mat,sim_mat)[,1]
   neighbor_scores <- sort(neighbor_scores[!names(neighbor_scores)==user],decreasing = TRUE)
   print_neighbors(neighbor_scores,user,n_toprint)
   return(list(neighbor_scores=neighbor_scores,all_ratings = dat))
 }
-print_neighbors <- function(neighbor_scores,user=user,n_toprint=10){
+print_neighbors <- function(neighbor_scores,user,n_toprint=10){
   writeLines(paste0('Top ', n_toprint,' Musical Neighbors for ',user))
   for(i in 1:n_toprint){
     writeLines(sprintf('Rank %d, %s, score %.3f',
