@@ -277,7 +277,7 @@ sput_rig <- function(album, points = 1L){
   rigged$up_hack <- rig_up_hack(ratings,points)
   # rig rating down by hacking ratings
   rigged$down_hack <- rig_down_hack(ratings,points)
-  writeLines(sprintf(paste0("Band: %s, Album: %s\n",
+  writeLines(sprintf(paste0(" \nBand: %s, Album: %s\n",
                             "Current Average Rating: %s (full: %s), %s Ratings\n",
                             "Number of 5's needed to increase rating by %s points: %s\n",
                             "Number of 1's needed to decrease rating by %s points: %s\n",
