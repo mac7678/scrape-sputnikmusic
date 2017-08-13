@@ -225,7 +225,7 @@ sput_rig <- function(album, points = 1L){
   rigged <- list()
   rigged$Rating <- dat$Rating
   rigged$mean <- round2(mean(dat$Rating),1)
-  if(rigged$mean + points >5 || rigged$mean-points < 1){
+  if(rigged$mean + points >5 && rigged$mean-points < 1){
     stop("'points' set too high")
   }
   rigged$extended_mean <- round2(mean(dat$Rating),4)
@@ -235,6 +235,7 @@ sput_rig <- function(album, points = 1L){
   
   rig_down_add <- function(ratings, points){
     cur_mean <-  round2(mean(ratings),1)
+    if(cur_mean - points < 1) return(NaN)
     adder <- 0
     while(cur_mean < round2(mean(ratings),1) + points){
       adder <- adder + 1
@@ -244,6 +245,7 @@ sput_rig <- function(album, points = 1L){
   }
   rig_up_add <- function(ratings, points){
     cur_mean <-  round2(mean(ratings),1)
+    if(cur_mean + points > 5) return(NaN)
     adder <- 0
     while(cur_mean + points > round2(mean(ratings),1)){
       adder <- adder + 1
@@ -253,6 +255,7 @@ sput_rig <- function(album, points = 1L){
   }
   rig_down_hack <- function(ratings, points){
     cur_mean <-  round2(mean(ratings),1)
+    if(cur_mean - points < 1) return(NaN)
     ratings <- sort(ratings,decreasing = TRUE)
     for(i in seq_along(ratings)){
       ratings[i] <- 1
@@ -262,6 +265,7 @@ sput_rig <- function(album, points = 1L){
   }
   rig_up_hack <- function(ratings, points){
     cur_mean <-  round2(mean(ratings),1)
+    if(cur_mean + points > 5) return(NaN)
     ratings <- sort(ratings)
     for(i in seq_along(ratings)){
       ratings[i] <- 5
@@ -297,5 +301,5 @@ sput_rig <- function(album, points = 1L){
 # link of album to rig
 album <- 'http://www.sputnikmusic.com/album/67689/Universum-Mortuus-Machina/'
 
-dat <- sput_rig(album, points = 1) # points is increment of rating ...
+dat <- sput_rig(album, points = 20) # points is increment of rating ...
 # i.e. going from 4.0 to 4.1 is a "points" increase of 1
