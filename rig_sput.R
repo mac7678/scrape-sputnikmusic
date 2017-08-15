@@ -239,7 +239,11 @@ sput_rig <- function(album, points = 1L){
     adder <- 0
     while(cur_mean < round2(mean(ratings),1) + points){
       adder <- adder + 1
-      ratings <- c(ratings,1)
+      if(round2(mean(ratings),1) >= 4.3){
+        ratings <- c(ratings,2)
+      } else {
+        ratings <- c(ratings,1)
+      }
     }
     return(adder)
   }
@@ -258,7 +262,12 @@ sput_rig <- function(album, points = 1L){
     if(cur_mean - points < 1) return(NaN)
     ratings <- sort(ratings,decreasing = TRUE)
     for(i in seq_along(ratings)){
-      ratings[i] <- 1
+      if(round2(mean(ratings),1) >= 4.3){
+        ratings[i] <- 2
+      } else {
+        ratings[i] <- 1
+      }
+      
       if(!cur_mean < round2(mean(ratings),1) + points) break
     }
     return(i)
@@ -284,9 +293,10 @@ sput_rig <- function(album, points = 1L){
   writeLines(sprintf(paste0(" \nBand: %s, Album: %s\n",
                             "Current Average Rating: %s (full: %s), %s Ratings\n",
                             "Number of 5's needed to increase rating by %s points: %s\n",
-                            "Number of 1's needed to decrease rating by %s points: %s\n",
+                            "Number of 1's* needed to decrease rating by %s points: %s\n",
                             "Number of accounts to needed be hacked to increase rating by %s points: %s\n",
-                            "Number of accounts to needed be hacked to decrease rating by %s points: %s\n"),
+                            "Number of accounts to needed be hacked to decrease rating by %s points: %s\n",
+                            "*if album is above a 4.2, then an album has to be 2'd until it drops"),
                      dat$band[1],dat$album[1],
                      rigged$mean,rigged$extended_mean, rigged$num_ratings,
                      points,rigged$up_add,
