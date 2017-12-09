@@ -1,22 +1,31 @@
 library(XML)
+library(RCurl)
+library(httr)
 library(dplyr)
 ####----- Functions for Scraping -----####
+htmlParse_https <- function(link){
+  cafile <- system.file("CurlSSL", package = "RCurl")
+  # Read page
+  page <- GET(link,
+              config(cainfo = cafile))
+  obj <- htmlParse(page)
+}
 
 findSputURL_soundoffpage <- function(sputurl){ # find soundoffpage
-  links <- getHTMLLinks(sputurl)
+  links <- getHTMLLinks(htmlParse_https(sputurl))
   if(!is.na(links[grep('/soundoff',links)[1]])){
     links <- links[grep('/soundoff',links)[1]]
-    links <- paste0('http://www.sputnikmusic.com',links)
+    links <- paste0('https://www.sputnikmusic.com',links)
   }else{
     links <- sputurl
   }
   return(links)
 }
 findSputURL_band <- function(sputurl){ # find band page
-  links <- getHTMLLinks(sputurl)
+  links <- getHTMLLinks(htmlParse_https(sputurl))
   if(!is.na(links[grep('bands/',links)[1]])){
     links <- links[grep('bands/',links)[1]]
-    links <- paste0('http://www.sputnikmusic.com/',links)
+    links <- paste0('https://www.sputnikmusic.com/',links)
   }else{
     links <- sputurl
   }
@@ -74,10 +83,10 @@ scrape_tags <- function(band_page,genre){ # get genre tags from band_page
 }
 scrape_soundoff <- function(obj,link){ # function to scrape data 
   if(!any(class(obj) %in% c("HTMLInternalDocument", "HTMLInternalDocument",
-                           "XMLInternalDocument",  "XMLAbstractDocument")) && is.character(obj)){
+                            "XMLInternalDocument",  "XMLAbstractDocument")) && is.character(obj)){
     link <- obj
     if(!grepl('/soundoff.php',obj)) stop('Character string provided is not a soundoff page')
-    obj <- htmlParse(obj)
+    obj <- htmlParse_https(obj)
   }
   if(!any(class(obj) %in% c("HTMLInternalDocument", "HTMLInternalDocument",
                             "XMLInternalDocument",  "XMLAbstractDocument")) && !is.character(obj)) {
@@ -95,7 +104,7 @@ scrape_soundoff <- function(obj,link){ # function to scrape data
     release.year <- as.numeric(tail(unlist(strsplit(unlist(lapply(xpathSApply(obj, "//b"),xmlToList)[[2]]),'/')),1))
   }
   dat<-readHTMLTable(obj,which = 1)
-  if(any(grepl('http:/',user_links))) user_links <- user_links[-grep('http:/',user_links)]
+  if(any(grepl('https:/',user_links))) user_links <- user_links[-grep('https:/',user_links)]
   dat$V2 <- as.character(dat$V2)
   names(dat)[1] <- 'Rating'
   dat <- dat[!is.na(dat$V2),]
@@ -142,16 +151,16 @@ scrape_soundoff <- function(obj,link){ # function to scrape data
   return(dat)
 }
 
-scrapesput <- function(link,sput = 'http://www.sputnikmusic.com/'){ # preload dat with band/album/ and if previously found: genre tags
+scrapesput <- function(link,sput = 'https://www.sputnikmusic.com/'){ # preload dat with band/album/ and if previously found: genre tags
   genre <- readRDS('genre.rds')
   is_soundoff <- ifelse(grepl('/soundoff.php',link),1,0) # detect if soundoff page
   if(grepl(sput,link)) link <- paste0('/',tail(unlist(strsplit(link,sput)),1)) # grab href link
   if(!grepl(sput,link)) link_url <- paste0(sput,link) else link_url <- link # attach website to link
-  html_page <- htmlParse(findSputURL_soundoffpage(link_url)) # find soundoff page if it's an album link
+  html_page <- htmlParse_https(findSputURL_soundoffpage(link_url)) # find soundoff page if it's an album link
   # if(is.na(html_page)) return(NA)
   bandlink <- findSputURL_band(link_url) # find band page
   if(grepl('//bands//0/',bandlink)) return(data.frame()) 
-  band_page <- htmlParse(bandlink) # create an html object from bandlink
+  band_page <- htmlParse_https(bandlink) # create an html object from bandlink
   if(!link %in% getHTMLLinks(band_page) && !is_soundoff){
     return(data.frame())
   }else{
@@ -176,7 +185,16 @@ scrapesput <- function(link,sput = 'http://www.sputnikmusic.com/'){ # preload da
 # links need to be from the band page (i.e. '/album/' page)...
 # or from a soundoff page, but data returned from a soundoff page will miss band, album, and genre information
 
-sputurl <- 'http://www.sputnikmusic.com/album/14363/maudlin-of-the-Well-My-Fruit-Psychobells...-A-Seed-Combustible/'
+
+
+
+
+# add to htmlparse's cafile <- system.file("CurlSSL", package = "RCurl");page <- GET(sputurl)
+
+
+
+
+sputurl <- 'https://www.sputnikmusic.com/album/14363/maudlin-of-the-Well-My-Fruit-Psychobells...-A-Seed-Combustible/'
 dat <- scrapesput(sputurl)
 # histogram of ratings
 hist(dat$Rating,main = 'A Middle Finger',xlab = 'Rating',ylab='Count')
