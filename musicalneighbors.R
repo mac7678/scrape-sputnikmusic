@@ -4,9 +4,16 @@ library(XML)
 
 ####------ Functions ------#####
 strsplit_last <- Vectorize(function(x) tail(unlist(strsplit(x,'/')),1),USE.NAMES = FALSE)
+htmlParse_https <- function(link){
+  cafile <- system.file("CurlSSL", package = "RCurl")
+  # Read page
+  page <- GET(link,
+              config(cainfo = cafile))
+  obj <- htmlParse(page)
+}
 find_user <- function(user){ # find users rating page
   sput <- 'http://www.sputnikmusic.com/user/'
-  site_links <- getHTMLLinks(paste0(sput,user))
+  site_links <- getHTMLLinks(htmlParse_https(paste0(sput,user)))
   userid <- tail(unlist(strsplit(grep('/uservote.php',site_links,value = TRUE),'=')),1)
   ratepage <- paste0('http://www.sputnikmusic.com/uservote.php?sort=1&memberid=',userid)
   return(ratepage)
@@ -26,7 +33,7 @@ scrape_user <- function(user){ # get album and rating information from a user
   if(!is.character(user)) stop("*user* has to be a character string")
   user_site <- find_user(user)
   # find the easiest table to load and then get links from
-  siteobj <- htmlParse(user_site)
+  siteobj <- htmlParse_https(user_site)
   dat <- list(user = user, Rating = get_ratings(siteobj),album = get_albums(siteobj))
   if(length(dat$album)==0 || all(is.na(dat$Rating))) return(list()) else return(as.data.frame(dat,stringsAsFactors = FALSE))
   free(siteobj)
