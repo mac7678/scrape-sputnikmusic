@@ -1,0 +1,550 @@
+ALBUM,ID,genre,RTRADE,RSTONE,Q,PASTE,NME,MOJO,DRWND,CoS,UNCUT,SKINNY,CMPLX,CRACK,GvsB,NOISEY,QUIETUS,STRGUM,UPROXX,VNLFCT,WIRE,POPMAT,PFORK,NPR,SPIN,LINE,TMT,ALTERN,FACT,AVG,WT-AVG,CONS SCORE,# Lists,Top 10s
+kendrick lamar - damn.,45,hip hop,45,1,1,2,3,7,18,2,3,1,1,6,35,2,NA,2,4,3,41,1,1,1,1,2,6,3,41,8.96,0.3446745562,11.40740741,26,21
+sza - ctrl,63,alternative r&b,NA,20,27,25,7,NA,42,7,NA,2,3,4,28,1,NA,5,2,NA,NA,35,2,2,3,3,17,18,3,12.19,0.5804988662,26.14814815,21,13
+lorde - melodrama,51,art pop,NA,2,4,NA,1,NA,28,1,18,3,44,NA,NA,10,NA,1,1,NA,NA,2,5,5,4,11,8,42,NA,10.56,0.5864197531,32.03703704,18,13
+sampha - process,12,alternative r&b,12,NA,14,10,23,35,NA,35,NA,5,5,NA,NA,4,NA,NA,27,1,NA,6,15,4,24,16,NA,NA,28,15.53,0.9134948097,37.55555556,17,7
+st. vincent - masseduction,62,art pop,NA,18,6,34,11,6,4,6,9,13,NA,40,NA,9,NA,14,6,NA,NA,13,22,NA,NA,37,NA,NA,34,16.59,0.9757785467,38.22222222,17,7
+lcd soundsystem - american dream,37,dance punk,37,5,2,8,5,1,27,40,1,6,NA,10,NA,NA,44,9,NA,NA,NA,5,12,NA,25,NA,NA,NA,47,16.71,0.9826989619,38.2962963,17,10
+kelela - take me apart,19,alternative r&b,19,NA,NA,NA,NA,NA,NA,11,NA,48,17,21,42,8,6,26,38,9,NA,8,4,NA,15,23,NA,NA,26,20.06,1.25390625,42.44444444,16,5
+vince staples - big fish theory,71,hip hop,NA,28,NA,NA,15,NA,NA,4,NA,8,14,NA,12,25,30,18,10,NA,NA,21,7,17,30,17,NA,NA,NA,17.07,1.137777778,42.81481481,15,4
+jlin - black origami,66,footwork,NA,23,NA,NA,NA,NA,NA,23,NA,33,NA,20,40,18,35,44,NA,35,4,10,10,16,6,NA,22,NA,11,21.88,1.3671875,43.51851852,16,4
+perfume genius - no shape,151,art pop,NA,NA,NA,NA,24,29,25,17,NA,4,NA,12,NA,NA,NA,4,28,NA,NA,19,16,6,26,10,50,NA,NA,19.29,1.37755102,46.11111111,14,4
+thundercat - drunk,9,neo-soul,9,NA,25,NA,50,21,12,33,42,9,30,14,NA,NA,NA,47,NA,NA,NA,37,24,35,12,49,NA,NA,NA,28.06,1.75390625,47.18518519,16,2
+the war on drugs - a deeper understanding,100,heartland rock,NA,NA,23,23,39,49,NA,20,2,49,NA,NA,NA,NA,NA,6,3,NA,NA,20,11,20,5,30,NA,NA,NA,21.43,1.530612245,47.22222222,14,4
+mount eerie - a crow looked at me,123,singer-songwriter,NA,NA,NA,9,NA,NA,NA,8,40,21,NA,NA,NA,23,NA,10,NA,21,NA,24,14,31,23,NA,1,NA,14,18.38,1.414201183,47.74074074,13,4
+the national - sleep well beast,14,indie rock,14,11,10,NA,13,12,NA,36,7,NA,NA,NA,NA,NA,NA,32,13,47,NA,14,NA,24,37,NA,NA,NA,NA,20.77,1.597633136,48.88888889,13,2
+fever ray - plunge,160,electropop,NA,NA,NA,NA,41,NA,NA,NA,NA,16,NA,3,17,34,3,12,NA,NA,NA,3,9,27,17,NA,NA,NA,16,16.5,1.375,49,12,4
+jay-z - 4:44,58,hip hop,NA,12,46,NA,37,NA,NA,25,NA,NA,2,26,NA,24,NA,50,7,NA,NA,NA,13,11,33,NA,NA,NA,18,23.38,1.798816568,50.14814815,13,2
+king krule - the ooz,124,art rock,NA,NA,NA,13,16,NA,NA,31,NA,25,NA,25,9,3,NA,NA,NA,NA,NA,27,3,NA,28,9,NA,NA,NA,17.18,1.561983471,51.44444444,11,4
+big thief - capacity,4,indie rock,4,NA,NA,NA,NA,NA,NA,NA,NA,12,NA,NA,34,NA,NA,NA,9,NA,NA,43,23,3,2,34,27,10,NA,18.27,1.661157025,51.88888889,11,5
+father john misty - pure comedy,23,singer-songwriter,23,19,7,3,4,48,NA,NA,13,50,NA,NA,NA,NA,NA,22,5,NA,NA,17,NA,NA,NA,NA,NA,NA,NA,19.18,1.743801653,52.25925926,11,4
+"tyler, the creator - flower boy",112,experimental hip hop,NA,NA,40,NA,19,NA,NA,NA,NA,NA,6,23,NA,5,NA,NA,14,44,18,NA,8,NA,NA,27,NA,28,NA,21.09,1.917355372,53.03703704,11,3
+slowdive - slowdive,127,dream pop,NA,NA,NA,16,NA,NA,22,5,11,NA,NA,13,NA,NA,NA,15,NA,NA,NA,12,30,NA,41,NA,25,NA,NA,19,1.9,54.25925926,10,1
+kaitlyn aurelia smith - the kid,134,art pop,NA,NA,NA,30,48,NA,NA,NA,28,NA,NA,NA,43,NA,NA,NA,34,17,5,31,44,37,21,NA,NA,NA,20,29.83,2.486111111,54.92592593,12,1
+migos - culture,56,hip hop,NA,9,NA,NA,NA,NA,NA,42,NA,NA,7,15,NA,13,NA,33,NA,NA,NA,NA,19,38,11,NA,NA,NA,23,21,2.1,55,10,2
+julie byrne - not even happiness,132,folk,NA,NA,NA,27,NA,28,NA,37,14,NA,NA,NA,25,NA,NA,20,45,NA,NA,NA,37,NA,9,48,43,NA,NA,30.27,2.752066116,56.77777778,11,1
+bjork - utopia,3,art pop,3,NA,NA,NA,NA,NA,15,NA,NA,NA,NA,24,NA,NA,31,28,NA,50,NA,NA,20,NA,29,NA,21,NA,40,26.1,2.61,56.88888889,10,1
+courtney barnett & kurt vile - lotta sea lice,34,folk rock,34,15,NA,5,NA,16,NA,NA,8,39,NA,NA,NA,29,NA,NA,19,NA,NA,NA,NA,NA,NA,22,NA,NA,NA,20.78,2.308641975,56.92592593,9,2
+arca - arca,211,art pop,NA,NA,NA,NA,NA,NA,NA,16,39,NA,NA,1,NA,16,32,NA,NA,42,NA,22,21,NA,NA,NA,3,NA,NA,21.33,2.37037037,57.11111111,9,2
+moses sumney - aromanticism,208,art pop,NA,NA,NA,NA,NA,NA,NA,12,NA,NA,NA,NA,NA,NA,NA,19,NA,31,NA,46,6,14,10,39,NA,NA,33,23.33,2.592592593,57.77777778,9,2
+jane weaver - modern kosmology,8,dream pop,8,NA,22,NA,NA,5,8,NA,16,32,NA,NA,NA,NA,18,NA,NA,45,NA,NA,NA,NA,NA,NA,NA,NA,NA,19.25,2.40625,58.48148148,8,3
+j hus - common sense,110,hip hop,NA,NA,37,NA,6,NA,NA,NA,NA,NA,NA,17,NA,6,NA,NA,NA,11,NA,NA,NA,NA,NA,6,NA,NA,7,12.86,1.836734694,58.88888889,7,4
+hurray for the riff raff - the navigator,165,americana,NA,NA,NA,NA,NA,8,29,NA,10,29,NA,NA,NA,NA,NA,NA,31,NA,NA,30,NA,9,19,NA,NA,NA,NA,20.63,2.578125,58.88888889,8,3
+paramore - after laughter,68,new wave,NA,25,NA,NA,20,NA,13,45,NA,14,NA,NA,NA,33,NA,37,NA,NA,NA,NA,NA,50,8,NA,NA,NA,NA,27.22,3.024691358,59.07407407,9,1
+richard dawson - peasant,168,avant-folk,NA,NA,NA,NA,NA,20,NA,NA,6,NA,NA,9,NA,NA,1,NA,NA,NA,2,NA,NA,NA,NA,36,36,NA,NA,15.71,2.244897959,59.62962963,7,4
+julien baker - turn out the lights,146,singer-songwriter,NA,NA,NA,47,NA,NA,NA,13,NA,NA,NA,NA,NA,30,NA,13,32,NA,NA,NA,18,NA,NA,31,NA,2,NA,23.25,2.90625,59.66666667,8,1
+stormzy - gang signs & prayer,94,grime,NA,NA,11,NA,14,NA,NA,NA,NA,35,NA,37,NA,43,NA,NA,NA,18,NA,NA,NA,NA,NA,4,NA,NA,31,24.13,3.015625,59.92592593,8,1
+kelly lee owens - kelly lee owens,152,tech house,NA,NA,NA,NA,25,NA,2,NA,NA,23,NA,NA,2,NA,NA,NA,NA,30,NA,NA,33,NA,NA,5,NA,NA,NA,17.14,2.448979592,60,7,3
+sheer mag - need to fell your love,65,power pop,NA,22,NA,6,21,NA,NA,NA,NA,NA,NA,28,NA,11,NA,NA,29,NA,NA,NA,NA,NA,14,NA,NA,NA,NA,18.71,2.673469388,60.40740741,7,1
+jason isbell & the 400 unit - the nashville sound,64,americana,NA,21,NA,12,NA,27,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,11,NA,NA,18,NA,7,NA,NA,NA,NA,NA,20.71,2.959183673,60.92592593,7,1
+japanese breakfast - soft sounds from another planet,82,dream pop,NA,39,NA,37,NA,NA,NA,NA,NA,24,NA,NA,NA,NA,NA,17,15,NA,NA,50,NA,NA,NA,47,NA,23,44,32.89,3.654320988,60.96296296,9,0
+lana del rey - lust for life,69,dream pop,NA,26,39,NA,8,NA,NA,NA,NA,NA,46,2,50,19,NA,NA,NA,NA,NA,NA,32,NA,NA,NA,NA,NA,NA,27.75,3.46875,61,8,2
+priests - nothing feels natural,130,post-punk,NA,NA,NA,21,NA,NA,NA,NA,NA,42,NA,27,NA,NA,NA,3,NA,NA,NA,NA,25,44,18,NA,NA,NA,48,28.5,3.5625,61.22222222,8,1
+fleet foxes - crack-up,113,folk,NA,NA,41,40,NA,NA,NA,30,41,45,NA,NA,NA,NA,NA,NA,8,NA,NA,16,39,NA,46,NA,NA,NA,NA,34,3.777777778,61.33333333,9,1
+queens of the stone age - villains,21,alternative rock,21,8,9,NA,35,3,34,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,47,NA,NA,NA,NA,NA,NA,NA,22.43,3.204081633,61.37037037,7,3
+aldous harding - party,1,folk,1,NA,NA,NA,NA,10,NA,NA,NA,18,NA,43,4,NA,NA,NA,NA,NA,NA,NA,NA,10,NA,NA,NA,NA,NA,14.33,2.388888889,61.51851852,6,4
+future - hndrxx,210,hip hop,NA,NA,NA,NA,NA,NA,NA,15,NA,NA,4,NA,NA,12,NA,NA,NA,NA,NA,NA,27,NA,27,NA,NA,NA,5,15,2.5,61.66666667,6,2
+(sandy) alex g - rocket,159,indie rock,NA,NA,NA,NA,40,NA,NA,26,NA,NA,NA,30,NA,20,NA,21,46,NA,NA,NA,48,NA,NA,NA,NA,16,NA,30.88,3.859375,61.92592593,8,0
+drake - more life,70,hip hop,NA,27,NA,NA,NA,NA,NA,NA,NA,NA,10,19,NA,7,NA,NA,25,NA,NA,NA,38,NA,49,NA,NA,NA,NA,25,3.571428571,62.03703704,7,2
+laurel halo - dust,300,ambient pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,NA,NA,NA,NA,8,31,NA,46,NA,NA,NA,7,NA,6,17.17,2.861111111,62.14814815,6,4
+the xx - i see you,96,indie pop,NA,NA,17,28,46,NA,NA,NA,50,36,NA,NA,NA,NA,NA,NA,37,NA,NA,7,40,NA,NA,NA,NA,NA,NA,32.63,4.078125,62.44444444,8,1
+alvvays - antisocialites,122,indie pop,NA,NA,NA,7,17,NA,NA,NA,NA,44,NA,NA,16,NA,NA,31,NA,NA,NA,44,NA,32,NA,NA,NA,NA,NA,27.29,3.897959184,62.62962963,7,1
+jay som - everybody works,72,indie rock,NA,29,NA,1,NA,NA,NA,48,NA,NA,NA,NA,NA,NA,NA,23,NA,NA,NA,NA,26,21,NA,NA,NA,46,NA,27.71,3.959183673,62.74074074,7,1
+run the jewels - run the jewels 3,22,hip hop,22,NA,NA,4,NA,NA,NA,NA,NA,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,33,29,NA,NA,NA,NA,32,NA,21.17,3.527777778,63.03703704,6,2
+laura marling - semper femina,114,singer-songwriter,NA,NA,42,31,49,25,9,27,21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29.14,4.1632653060000004,63.11111111,7,1
+syd - fin,250,alternative r&b,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,31,NA,26,NA,NA,NA,NA,NA,41,36,NA,45,19,NA,NA,NA,29.86,4.265306122,63.2962963,7,0
+mount kimbie - love what survives,241,future garage,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,NA,34,31,NA,NA,NA,NA,16,NA,38,34,NA,NA,NA,NA,NA,NA,27.33,4.555555556,64.40740741,6,0
+phoebe bridgers - strangers in the alps,214,indie folk,NA,NA,NA,NA,NA,NA,NA,22,NA,17,NA,NA,NA,NA,NA,NA,17,NA,NA,NA,NA,NA,NA,1,NA,48,NA,21,4.2,65,5,1
+playboi carti - playboi carti,301,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,NA,NA,NA,NA,NA,NA,NA,35,NA,36,NA,9,NA,25,22.4,4.48,65.25925926,5,2
+ryuichi sakamoto - async,409,ambient,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,10,13,NA,NA,NA,NA,NA,13,NA,1,9.25,2.3125,65.25925926,4,2
+idles - brutalism,15,post-punk,15,NA,NA,NA,NA,NA,37,NA,NA,NA,NA,22,NA,NA,NA,NA,NA,NA,NA,25,NA,NA,NA,14,NA,NA,NA,22.6,4.52,65.2962963,5,0
+margo price - all american made,29,country,29,16,NA,NA,NA,NA,NA,NA,24,NA,NA,NA,NA,21,NA,NA,NA,NA,NA,23,NA,NA,NA,NA,NA,NA,NA,22.6,4.52,65.2962963,5,0
+sleaford mods - english tapas,28,post-punk,28,NA,12,NA,NA,9,NA,NA,32,NA,NA,41,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24.4,4.88,65.62962963,5,1
+wolf alice - visions of a life,92,indie rock,NA,NA,3,NA,2,45,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12.75,3.1875,65.77777778,4,3
+open mike eagle - brick body kids still daydream,77,hip hop,NA,34,NA,NA,NA,NA,NA,NA,NA,38,NA,NA,NA,NA,NA,NA,NA,NA,NA,42,49,29,50,NA,NA,36,NA,39.71,5.673469388,65.85185185,7,0
+sylvan esso - what now,129,indietronica,NA,NA,NA,19,NA,NA,36,NA,NA,26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,23,NA,32,NA,NA,NA,27.2,5.44,66.14814815,5,0
+kevin morby - city music,119,singer-songwriter,NA,NA,48,20,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,44,NA,NA,NA,NA,NA,NA,7,NA,NA,NA,28.2,5.64,66.33333333,5,1
+spoon - hot thoughts,139,indie rock,NA,NA,NA,38,NA,NA,NA,9,45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,NA,NA,20,NA,NA,NA,NA,28.2,5.64,66.33333333,5,1
+feist - pleasure,187,indie rock,NA,NA,NA,NA,NA,NA,7,NA,NA,27,NA,NA,NA,NA,NA,40,26,NA,NA,NA,NA,NA,42,NA,NA,NA,NA,28.4,5.68,66.37037037,5,1
+kehlani - sweetsexysavage,288,alternative r&b,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16,NA,NA,NA,NA,NA,NA,NA,NA,47,NA,13,46,NA,NA,21,28.6,5.72,66.40740741,5,0
+actress - azd,280,microhouse,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,NA,NA,NA,NA,NA,NA,11,NA,NA,NA,32,NA,39,NA,30,28.8,5.76,66.44444444,5,0
+loyle carner - yesterday's gone,150,hip hop,NA,NA,NA,NA,12,NA,23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,23,NA,NA,NA,NA,NA,12,NA,NA,NA,17.5,4.375,66.48148148,4,0
+zola jesus - okovi,191,art pop,NA,NA,NA,NA,NA,NA,17,NA,NA,NA,NA,NA,NA,NA,NA,43,NA,43,NA,4,41,NA,NA,NA,NA,NA,NA,29.6,5.92,66.59259259,5,1
+kesha - rainbow,53,pop rock,NA,4,NA,NA,NA,NA,NA,NA,NA,NA,21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,NA,41,NA,NA,NA,18.5,4.625,66.62962963,4,2
+charly bliss - guppy,325,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,46,NA,7,23,NA,NA,NA,NA,NA,NA,NA,NA,4,NA,20,5,66.85185185,4,2
+waxahatchee - out in the storm,60,indie rock,NA,14,NA,18,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,NA,NA,NA,NA,NA,41,NA,NA,NA,NA,NA,20.25,5.0625,66.88888889,4,1
+charli xcx - number 1 angel,251,electropop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,29,NA,38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,4,NA,NA,20.75,5.1875,66.96296296,4,1
+khalid - american teen,54,alternative r&b,NA,6,NA,NA,NA,NA,NA,44,NA,NA,47,NA,NA,17,NA,NA,NA,NA,NA,NA,NA,NA,NA,50,NA,NA,NA,32.8,6.56,67.18518519,5,1
+grizzly bear - painted ruins,44,indie rock,44,40,NA,NA,NA,NA,20,NA,20,NA,NA,NA,41,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,33,6.6,67.22222222,5,0
+the weather station - the weather station,226,singer-songwriter,NA,NA,NA,NA,NA,NA,NA,NA,4,NA,NA,NA,NA,NA,NA,38,43,NA,NA,NA,NA,NA,40,40,NA,NA,NA,33,6.6,67.22222222,5,1
+liam gallagher - as you were,32,britpop,32,37,15,NA,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,23.5,5.875,67.37037037,4,1
+brockhampton - saturation ii,219,hip hop,NA,NA,NA,NA,NA,NA,NA,34,NA,40,NA,45,NA,NA,NA,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,NA,33.8,6.76,67.37037037,5,0
+ryan adams - prisoner,2,singer-songwriter,2,NA,NA,NA,NA,NA,NA,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26,NA,NA,NA,10.33,3.444444444,67.81481481,3,2
+beck - colors,41,alternative dance,41,41,30,NA,30,40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36.4,7.28,67.85185185,5,0
+cigarettes after sex - cigarettes after sex,6,dream pop,6,NA,21,NA,NA,NA,39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,43,NA,NA,NA,27.25,6.8125,67.92592593,4,1
+taylor swift - reputation,55,electropop,NA,7,NA,NA,31,NA,NA,NA,NA,NA,26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48,NA,NA,NA,NA,28,7,68.03703704,4,1
+algiers - the underside of power,246,post-punk,NA,NA,NA,NA,NA,NA,NA,NA,NA,43,NA,NA,NA,NA,24,NA,NA,NA,NA,11,NA,NA,NA,35,NA,NA,NA,28.25,7.0625,68.07407407,4,0
+oh sees - orc,36,psychedelic rock,36,NA,NA,22,NA,24,NA,NA,33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28.75,7.1875,68.14814815,4,0
+visible cloaks - reassemblage,296,ambient,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,44,NA,NA,45,NA,NA,14,NA,NA,NA,NA,NA,NA,NA,NA,12,28.75,7.1875,68.14814815,4,0
+gorillaz - humanz,93,electropop,NA,NA,5,NA,18,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,15,5,68.33333333,3,1
+juana molina - halo,188,folktronica,NA,NA,NA,NA,NA,NA,10,NA,17,NA,NA,NA,NA,NA,NA,NA,NA,NA,26,NA,NA,NA,NA,NA,NA,NA,NA,17.67,5.888888889,68.62962963,3,1
+"colleen - a flame my love, a frequency",379,ambient pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA,NA,NA,46,NA,2,18,6,68.66666667,3,2
+mhysa - fantasii,431,ambient pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20,NA,NA,NA,NA,NA,10,NA,24,18,6,68.66666667,3,1
+aimee mann - mental illness,128,singer-songwriter,NA,NA,NA,17,NA,19,NA,19,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,18.33,6.111111111,68.7037037,3,0
+sorority noise - you're not as ____ as you think,411,emo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16,33,NA,NA,NA,NA,NA,NA,NA,NA,7,NA,18.67,6.222222222,68.74074074,3,1
+nadine shah - holiday destination,194,indie rock,NA,NA,NA,NA,NA,NA,26,NA,NA,NA,NA,NA,NA,NA,5,NA,NA,NA,NA,NA,NA,NA,NA,28,NA,NA,NA,19.67,6.555555556,68.85185185,3,1
+the moonlandingz - interplanetary class classics,162,neo-psychedelia,NA,NA,NA,NA,45,11,NA,NA,NA,NA,NA,NA,NA,NA,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20,6.666666667,68.88888889,3,1
+four tet - new energy,97,microhouse,NA,NA,18,NA,NA,NA,NA,NA,36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9,NA,NA,NA,NA,NA,NA,NA,21,7,69,3,1
+joey bada$$ - all-amerikkkan bada$$,255,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,18,NA,NA,NA,NA,NA,30,NA,NA,NA,NA,NA,NA,15,NA,NA,NA,21,7,69,3,0
+susanne sundfor - music for people in trouble,107,art pop,NA,NA,34,NA,NA,31,NA,NA,30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,45,NA,NA,NA,35,8.75,69.07407407,4,0
+errorsmith - superlative fatigue,371,minimal techno,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,NA,NA,7,NA,NA,NA,NA,NA,NA,NA,NA,9,21.67,7.222222222,69.07407407,3,2
+princess nokia - 1992 deluxe,156,trap rap,NA,NA,NA,NA,32,NA,31,NA,NA,NA,NA,NA,NA,NA,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,23.67,7.888888889,69.2962963,3,1
+protomartyr - relatives in descent,161,post-punk,NA,NA,NA,NA,42,NA,19,NA,NA,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,23.67,7.888888889,69.2962963,3,1
+joan shelley - joan shelley,106,americana,NA,NA,33,NA,NA,NA,NA,NA,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,34,NA,NA,NA,NA,NA,24,8,69.33333333,3,1
+rhiannon giddens - freedom highway,230,folk,NA,NA,NA,NA,NA,NA,NA,NA,26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,34,NA,13,NA,NA,NA,NA,NA,24.33,8.111111111,69.37037037,3,0
+kamasi washington - harmony of difference,213,jazz,NA,NA,NA,NA,NA,NA,NA,21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,31,NA,NA,25,NA,NA,NA,25.67,8.555555556,69.51851852,3,0
+songhoy blues - resistance,74,world,NA,31,NA,NA,NA,23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24,NA,NA,NA,26,8.666666667,69.55555556,3,0
+the big moon - love in the 4th dimension,7,indie rock,7,NA,NA,NA,44,NA,30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27,9,69.66666667,3,1
+nadia reid - preservation,105,singer-songwriter,NA,NA,32,NA,NA,2,NA,NA,NA,47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27,9,69.66666667,3,1
+equiknoxx - colon man,317,dancehall,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,30,NA,NA,NA,NA,38,NA,NA,NA,NA,NA,NA,NA,NA,15,27.67,9.222222222,69.74074074,3,0
+klein - tommy,422,experimental,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,NA,NA,NA,NA,NA,5,NA,NA,4,2,69.74074074,2,2
+karen gwyer - rembo,399,tech house,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26,40,NA,NA,NA,NA,NA,NA,NA,19,28.33,9.444444444,69.81481481,3,0
+this is the kit - moonshine freeze,46,indie rock,46,NA,NA,26,NA,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28.67,9.555555556,69.85185185,3,0
+gas - narkopop,233,ambient,NA,NA,NA,NA,NA,NA,NA,NA,31,NA,NA,39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,18,NA,NA,29.33,9.777777778,69.92592593,3,0
+torres - three futures,337,art pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27,NA,NA,NA,NA,NA,NA,NA,28,NA,33,NA,NA,NA,29.33,9.777777778,69.92592593,3,0
+randy newman - dark matter,59,singer-songwriter,NA,13,NA,NA,NA,33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,43,NA,NA,NA,NA,29.67,9.888888889,69.96296296,3,0
+alice coltrane - world spirituality classics 1,281,new age,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,NA,NA,NA,NA,7.5,3.75,70,2,2
+dj python - dulce compania,284,deep house,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,4,7.5,3.75,70,2,1
+phoenix - ti amo,111,indie pop,NA,NA,38,NA,43,NA,NA,43,NA,NA,NA,NA,NA,NA,NA,NA,42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,41.5,10.375,70.03703704,4,0
+binker and moses - journey to the mountain of forever,166,jazz,NA,NA,NA,NA,NA,17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,9.5,4.75,70.14814815,2,1
+v/a - mono no aware,295,ambient,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,NA,NA,9.5,4.75,70.14814815,2,1
+girl ray - earl grey,40,indie pop,40,NA,16,NA,NA,NA,40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,10.66666667,70.22222222,3,0
+joshua abrams & natural information society - simultonality,227,avant-garde jazz,NA,NA,NA,NA,NA,NA,NA,NA,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,NA,NA,NA,NA,NA,NA,NA,NA,11,5.5,70.25925926,2,1
+cloud nothings - life without sound,209,indie rock,NA,NA,NA,NA,NA,NA,NA,14,NA,37,NA,NA,NA,48,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,33,11,70.33333333,3,0
+chino amobi - paradiso,421,electronic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,24,NA,NA,12.5,6.25,70.37037037,2,1
+felicia atkinson - hand in hand,426,ambient,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,14,NA,NA,NA,NA,NA,11,NA,NA,12.5,6.25,70.37037037,2,0
+lil b - black ken,279,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,50,NA,NA,NA,NA,NA,NA,NA,45,NA,43,NA,NA,NA,NA,NA,39,44.25,11.0625,70.44444444,4,0
+baxter dury - prince of tears,20,synthpop,20,NA,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,14,7,70.48148148,2,1
+james holden & the animal spirits - the animal spirits,340,electronic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,NA,NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,14.5,7.25,70.51851852,2,1
+lil uzi vert - luv is rage 2,248,trap rap,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22,NA,NA,NA,NA,NA,15,7.5,70.55555556,2,1
+charlotte gainsbourg - rest,457,art pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,17,NA,NA,13,NA,NA,NA,15,7.5,70.55555556,2,0
+milo - who told you to think??!!?!?!?!,405,experimental hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,18,NA,NA,NA,NA,NA,NA,NA,14,NA,NA,16,8,70.62962963,2,0
+call super - arpo,345,IDM,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,13,NA,NA,20,NA,NA,NA,NA,NA,NA,NA,NA,NA,16.5,8.25,70.66666667,2,0
+diet cig - swear i'm good at this,137,indie pop,NA,NA,NA,35,NA,NA,NA,NA,NA,NA,NA,NA,NA,31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,43,NA,36.33,12.11111111,70.7037037,3,0
+peter perrett - how the west was won,169,indie rock,NA,NA,NA,NA,NA,22,NA,NA,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,17,8.5,70.7037037,2,0
+mesh - hesaitix,487,electronic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20,NA,17,18.5,9.25,70.81481481,2,0
+ifriqiyya electrique - ruwahine,350,electronic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20,NA,NA,NA,NA,NA,NA,19,NA,NA,NA,NA,NA,19.5,9.75,70.88888889,2,0
+yves tumor - experiencing the deposit of faith,483,ambient,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,NA,38,20,10,70.92592593,2,1
+sparks - hippopotamus,102,art pop,NA,NA,26,NA,NA,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20.5,10.25,70.96296296,2,0
+golden teacher - no luscious life,392,dub,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,13,28,NA,NA,NA,NA,NA,NA,NA,NA,20.5,10.25,70.96296296,2,0
+alt-j - relaxer,117,art pop,NA,NA,45,NA,38,NA,NA,NA,NA,34,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,13,71,3,0
+foo fighters - concrete and gold,90,alternative rock,NA,49,NA,NA,27,42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39.33,13.11111111,71.03703704,3,0
+pallbearer - heartless,212,doom metal,NA,NA,NA,NA,NA,NA,NA,18,NA,NA,NA,NA,NA,NA,NA,25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,21.5,10.75,71.03703704,2,0
+goldlink - at what cost,263,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28,NA,NA,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,21.5,10.75,71.03703704,2,0
+vijay iyer sextet - far from over,76,jazz,NA,33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,NA,NA,NA,NA,NA,22.5,11.25,71.11111111,2,0
+pan daijing - lack 惊蛰,423,experimental,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,NA,NA,NA,NA,NA,37,NA,NA,22.5,11.25,71.11111111,2,1
+the horrors - v,95,neo-psychedelia,NA,NA,13,NA,NA,NA,33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,23,11.5,71.14814815,2,0
+hiss golden messenger - hallelujah anyhow,231,americana,NA,NA,NA,NA,NA,NA,NA,NA,27,NA,NA,NA,NA,NA,NA,NA,20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,23.5,11.75,71.18518519,2,0
+muna - about u,103,indie pop,NA,NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20,NA,NA,NA,24,12,71.22222222,2,0
+mura masa - mura masa,157,alternative r&b,NA,NA,NA,NA,34,NA,NA,NA,NA,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24.5,12.25,71.25925926,2,0
+shabazz palaces - quazarz: born on a gangster star,178,experimental hip hop,NA,NA,NA,NA,NA,43,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24.5,12.25,71.25925926,2,1
+shabazz palaces - quazarz vs. the jealous machines,179,experimental hip hop,NA,NA,NA,NA,NA,43,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24.5,12.25,71.25925926,2,1
+rapsody - laila's wisdom,252,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,NA,NA,NA,NA,NA,24.5,12.25,71.25925926,2,0
+harry styles - harry styles,61,pop rock,NA,17,NA,NA,NA,NA,NA,NA,NA,NA,33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,25,12.5,71.2962963,2,0
+future - future,253,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,15,NA,NA,35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,25,12.5,71.2962963,2,0
+hand habits - wildly idle (humble before the void),18,indie rock,18,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,25.5,12.75,71.33333333,2,0
+forest swords - compassion,99,electronic,NA,NA,20,NA,NA,NA,NA,NA,NA,31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,25.5,12.75,71.33333333,2,0
+smino - blkswn,207,alternative r&b,NA,NA,NA,NA,NA,NA,NA,10,NA,NA,41,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,25.5,12.75,71.33333333,2,1
+yaeji - yaeji,297,deep house,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,50,NA,NA,NA,NA,NA,NA,25.5,12.75,71.33333333,2,1
+circuit des yeux - reaching for indigo,326,art pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,41,NA,NA,NA,NA,10,NA,NA,NA,NA,NA,NA,NA,NA,25.5,12.75,71.33333333,2,1
+valerie june - the order of time,67,americana,NA,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28,NA,NA,NA,NA,NA,NA,NA,26,13,71.37037037,2,0
+converge - the dusk in us,381,metalcore,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,30,NA,NA,NA,NA,NA,NA,NA,NA,NA,22,NA,26,13,71.37037037,2,0
+jana rush - pariah,286,footwork,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,47,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA,NA,NA,NA,NA,26.5,13.25,71.40740741,2,1
+circle - terminal,349,space rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19,NA,NA,NA,34,NA,NA,NA,NA,NA,NA,NA,NA,26.5,13.25,71.40740741,2,0
+young thug - beautiful thugger girls,472,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22,NA,31,NA,NA,26.5,13.25,71.40740741,2,0
+ty segall - ty segall,135,psychedelic rock,NA,NA,NA,32,NA,NA,NA,NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27,13.5,71.44444444,2,0
+mark lanegan band - gargoyle,167,singer-songwriter,NA,NA,NA,NA,NA,18,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,NA,NA,NA,NA,NA,NA,NA,27,13.5,71.44444444,2,0
+the bug vs. earth - concrete desert,171,electronic,NA,NA,NA,NA,NA,30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24,NA,NA,NA,NA,NA,NA,NA,NA,27,13.5,71.44444444,2,0
+the new pornographers - whiteout conditions,85,indie pop,NA,44,NA,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27.5,13.75,71.48148148,2,0
+2 chainz - pretty girls like trap music,261,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,30,NA,27.5,13.75,71.48148148,2,0
+alessandro cortini - avanti,307,ambient,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,15,NA,NA,NA,NA,40,NA,NA,NA,NA,NA,NA,NA,NA,NA,27.5,13.75,71.48148148,2,0
+bedouine - bedouine,17,singer-songwriter,17,NA,NA,39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28,14,71.51851852,2,0
+methyl ethel - everything is forgotten,154,psychedelic pop,NA,NA,NA,NA,28,NA,NA,NA,NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28,14,71.51851852,2,0
+trio da kali & kronos quartet - ladilikan,237,classical,NA,NA,NA,NA,NA,NA,NA,NA,43,NA,NA,NA,NA,NA,NA,NA,NA,46,NA,NA,NA,42,NA,NA,NA,NA,NA,43.67,14.55555556,71.51851852,3,0
+jaimie branch - fly or die,424,jazz,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9,NA,NA,47,NA,NA,NA,NA,NA,28,14,71.51851852,2,1
+robert plant - carry fire,75,folk rock,NA,32,NA,NA,NA,NA,NA,NA,25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28.5,14.25,71.55555556,2,0
+here lies man - here lies man,10,afrobeat,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,14.5,71.59259259,2,1
+thurston moore - rock n roll consciousness,25,alternative rock,25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,14.5,71.59259259,2,0
+pile - a hairshirt of purpose,476,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,44,NA,NA,15,NA,29.5,14.75,71.62962963,2,0
+ghostpoet - dark days + canapes,118,hip hop,NA,NA,47,NA,NA,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,30,15,71.66666667,2,0
+gnod - just say no to the psycho right-wing capitalist...,348,noise rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,17,NA,NA,NA,43,NA,NA,NA,NA,NA,NA,NA,NA,30,15,71.66666667,2,0
+paul weller - a kind revolution,101,rock,NA,NA,24,NA,NA,37,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,30.5,15.25,71.7037037,2,0
+mogwai - every country's sun,181,post-rock,NA,NA,NA,NA,NA,46,16,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,31,15.5,71.74074074,2,0
+omni - multi-task,140,post-punk,NA,NA,NA,41,NA,NA,NA,NA,NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,31.5,15.75,71.77777778,2,0
+nicole mitchell - mandorla awakening ii: emerging worlds,357,avant-garde jazz,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28,NA,NA,NA,35,NA,NA,NA,NA,NA,NA,NA,NA,31.5,15.75,71.77777778,2,0
+pigs pigs pigs pigs pigs pigs pigs - feed the rats,293,psychedelic rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,NA,NA,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,16,71.81481481,2,0
+johnny jewel - windswept,200,ambient,NA,NA,NA,NA,NA,NA,44,50,NA,NA,NA,NA,48,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,47.33,15.77777778,71.92592593,3,0
+blanck mass - world eater,245,experimental,NA,NA,NA,NA,NA,NA,NA,NA,NA,41,NA,NA,NA,NA,NA,NA,NA,NA,NA,26,NA,NA,NA,NA,NA,NA,NA,33.5,16.75,71.92592593,2,0
+mac demarco - this old dog,30,singer-songwriter,30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,NA,NA,NA,NA,34,17,71.96296296,2,0
+kasabian - for crying out loud,108,alternative dance,NA,NA,35,NA,33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,34,17,71.96296296,2,0
+william basinski - a shadow in time,206,ambient,NA,NA,NA,NA,NA,NA,50,NA,NA,NA,NA,18,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,34,17,71.96296296,2,0
+japandroids - near to the wild heart of life,398,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,21,NA,NA,NA,NA,NA,47,NA,NA,NA,NA,34,17,71.96296296,2,0
+bonobo - migration,242,downtempo,NA,NA,NA,NA,NA,NA,NA,NA,NA,19,NA,NA,NA,NA,NA,NA,50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,34.5,17.25,72,2,0
+jens lekman - life will see you now,244,indie pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,30,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,NA,NA,NA,NA,NA,NA,NA,34.5,17.25,72,2,0
+john maus - screen memories,287,hypnagogic pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,50,NA,NA,NA,NA,NA,NA,46,NA,NA,NA,NA,NA,NA,NA,49,48.33,16.11111111,72.03703704,3,0
+benjamin booker - witness,131,indie rock,NA,NA,NA,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,35.5,17.75,72.07407407,2,0
+caterina barbieri - patterns of consciousness,441,electronic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,NA,NA,NA,NA,NA,NA,NA,35,35.5,17.75,72.07407407,2,0
+ride - weather diaries,196,shoegaze,NA,NA,NA,NA,NA,NA,35,NA,37,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,18,72.11111111,2,0
+g perico - all blue,262,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,45,36,18,72.11111111,2,0
+brian eno - reflection,42,ambient,42,NA,31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36.5,18.25,72.14814815,2,0
+oneohtrix point never - good time,225,electronic,NA,NA,NA,NA,NA,NA,NA,49,NA,NA,NA,NA,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36.5,18.25,72.14814815,2,0
+blue hawaii - tenderness,318,indietronica,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,42,NA,NA,NA,37,18.5,72.18518519,2,0
+power trip - nightmare logic,221,thrash metal,NA,NA,NA,NA,NA,NA,NA,39,NA,NA,NA,NA,NA,36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,37.5,18.75,72.22222222,2,0
+yaeji - ep2,298,electronic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,72.25925926,1,1
+oso oso - the yunahon mixtape,506,emo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,1,1,72.25925926,1,1
+roc marciano - rosebudd's revenge,264,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,NA,NA,NA,NA,48,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38.5,19.25,72.2962963,2,0
+kara-lis coverdale - grafts,320,ambient,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,37,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40,NA,NA,38.5,19.25,72.2962963,2,0
+zimpel/ziolek - zimpel/ziolek,339,avant-garde jazz,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,72.2962963,1,1
+u2 - songs of experience,52,rock,NA,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,3,72.33333333,1,1
+ema - exile in the outer ring,184,noise rock,NA,NA,NA,NA,NA,NA,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,3,72.33333333,1,1
+tops - sugar at the gate,299,indie pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,3,72.33333333,1,1
+a tribe called quest - we got it from here...,164,hip hop,NA,NA,NA,NA,NA,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,4,4,72.37037037,1,1
+les amazones d'afrique - republique amazone,402,world,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,4,4,72.37037037,1,1
+colter wall - colter wall,5,americana,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,5,72.40740741,1,1
+noveller - a pink sunset for no one,185,ambient,NA,NA,NA,NA,NA,NA,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,5,72.40740741,1,1
+octo octa - where are we going?,290,deep house,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,5,72.40740741,1,1
+tom hang - to be held in a non position,414,ambient,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,5,72.40740741,1,1
+lee gamble - mnestic pressure,443,IDM,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,NA,NA,NA,NA,NA,NA,NA,42,40,20,72.40740741,2,0
+great grandpa - plastic cough,507,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,NA,5,5,72.40740741,1,1
+austra - future politics,186,synthpop,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,6,72.44444444,1,1
+miguel - war & leisure,274,alternative r&b,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,NA,NA,NA,NA,40.5,20.25,72.44444444,2,0
+angel olsen - phases,282,singer-songwriter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.5,20.25,72.44444444,2,0
+girlpool - powerplant,391,indie pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,NA,NA,NA,NA,45,NA,NA,NA,NA,NA,NA,40.5,20.25,72.44444444,2,0
+rozwell kid - precious art,508,power pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,NA,6,6,72.44444444,1,1
+oumou sangare - mogoya,175,afropop,NA,NA,NA,NA,NA,38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,45,NA,NA,NA,NA,NA,41.5,20.75,72.51851852,2,0
+broken social scene - hug of thunder,239,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,46,NA,NA,NA,NA,37,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,41.5,20.75,72.51851852,2,0
+faye webster - faye webster,302,folk,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,8,72.51851852,1,1
+jfdr - brazil,477,art pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,NA,NA,NA,8,8,72.51851852,1,1
+strange ranger - daymoon,509,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,NA,8,8,72.51851852,1,1
+kamaiyah - before i wake,539,pop rap,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,8,8,72.51851852,1,1
+wiley - godfather,149,grime,NA,NA,NA,NA,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9,9,72.55555556,1,1
+daniel caesar - freudian,249,r&b,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9,9,72.55555556,1,1
+lone taxidermist - trifle,341,electronic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9,9,72.55555556,1,1
+hodera - first things first,510,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9,NA,9,9,72.55555556,1,1
+sam smith - the thrill of it all,57,pop soul,NA,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,10,10,72.59259259,1,1
+mega bog - happy together,303,art pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,10,10,72.59259259,1,1
+oxbow - thin black duke,342,experimental rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,10,10,72.59259259,1,1
+aaron dilloway - the gag file,444,noise,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,NA,NA,NA,NA,NA,NA,NA,46,42.5,21.25,72.59259259,2,0
+tqd - ukg,540,electronic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,10,10,10,72.59259259,1,1
+childhood - universal high,11,neo-psychedelia,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,11,72.62962963,1,0
+soulwax - from deewee,189,electropop,NA,NA,NA,NA,NA,NA,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,11,72.62962963,1,0
+toro y moi - boo boo,304,synth funk,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,11,72.62962963,1,0
+liars - tfcf,343,experimental rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,11,72.62962963,1,0
+citizen - as you please,511,post-hardcore,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,NA,11,11,72.62962963,1,0
+lotto - vv,344,post-rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,12,72.66666667,1,0
+rostam - half-light,408,art pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,12,72.66666667,1,0
+"shinichi atobe - from the heart, it's a start, a work of art",410,dub techno,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,12,72.66666667,1,0
+nadah el shazly - ahwar,425,folk,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,NA,NA,NA,NA,NA,NA,NA,NA,12,12,72.66666667,1,0
+remo drive - greatest hits,512,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,NA,12,12,72.66666667,1,0
+holly macve - golden eagle,13,country,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,13,13,72.7037037,1,0
+nite jewel - real high,305,synthpop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,13,13,72.7037037,1,0
+the spirit of the beehive - pleasure suck,513,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,13,NA,13,13,72.7037037,1,0
+sudan archives - sudan archives,541,folktronica,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,13,13,13,72.7037037,1,0
+white reaper - the world's best american band,125,glam rock,NA,NA,NA,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,14,14,72.74074074,1,0
+molly burch - please be mine,141,singer-songwriter,NA,NA,NA,42,NA,NA,NA,NA,NA,NA,NA,NA,47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,44.5,22.25,72.74074074,2,0
+jean-michel blais & cfcf - cascades,190,electronic,NA,NA,NA,NA,NA,NA,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,14,14,72.74074074,1,0
+yumi zouma - willowbank,306,indie pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,14,14,72.74074074,1,0
+dawn ray'd - the unlawful assembly,328,metal,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,14,14,72.74074074,1,0
+snapped ankles - come play the trees,346,dance punk,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,14,14,72.74074074,1,0
+vagabon - infinite worlds,418,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,47,NA,NA,NA,42,NA,NA,NA,NA,NA,NA,44.5,22.25,72.74074074,2,0
+meat wave - the incessant,514,garage punk,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,14,NA,14,14,72.74074074,1,0
+king gizzard and the lizard wizard - sketches of brunswick east,126,neo-psychedelia,NA,NA,NA,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,15,15,72.77777778,1,0
+weaves - wide open,145,indie rock,NA,NA,NA,46,NA,NA,NA,NA,NA,NA,NA,NA,NA,44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,45,22.5,72.77777778,2,0
+yazz ahmed - la saboteuse,420,jazz,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,15,15,72.77777778,1,0
+bill orcutt - bill orcutt,427,experimental,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,15,NA,NA,NA,NA,NA,NA,NA,NA,15,15,72.77777778,1,0
+iglooghost - neo wax bloom,451,wonky,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,15,NA,NA,NA,NA,NA,NA,NA,15,15,72.77777778,1,0
+danish string quartet - last leaf,459,classical,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,15,NA,NA,NA,NA,NA,15,15,72.77777778,1,0
+v/a - sounds of sisso,484,afrobeat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,15,NA,NA,15,15,72.77777778,1,0
+daniele luppi & parquet courts - milano,16,indie rock,16,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16,16,72.81481481,1,0
+a boogie wit da hoodie - the bigger artist,254,trap rap,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16,16,72.81481481,1,0
+laura cannell - hunter huntress hawker,347,free improvisation,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16,16,72.81481481,1,0
+gang of youths - go farther in lightness,390,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16,16,72.81481481,1,0
+irreversible entanglements - irreversible entanglements,428,jazz,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16,NA,NA,NA,NA,NA,NA,NA,NA,16,16,72.81481481,1,0
+destroyer - ken,471,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16,NA,NA,NA,NA,16,16,72.81481481,1,0
+dj escrow - universal soulja vol. 1,485,experimental,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16,NA,NA,16,16,72.81481481,1,0
+ellen arkbro - for organ and brass,429,modern classical,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,17,NA,NA,NA,NA,NA,NA,NA,NA,17,17,72.85185185,1,0
+"slaughter beach, dog - birdie",515,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,17,NA,17,17,72.85185185,1,0
+michael head & the red elastic band - adios,116,singer-songwriter,NA,NA,44,NA,NA,NA,NA,NA,49,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,46.5,23.25,72.88888889,2,0
+demen - nektyr,308,ambient pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,18,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,18,18,72.88888889,1,0
+ife - iiii+iiii,460,electronic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,18,NA,NA,NA,NA,NA,18,18,72.88888889,1,0
+mammut - kinder versions,478,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,18,NA,NA,NA,18,18,72.88888889,1,0
+sharon jones & the dap-kings - soul of a woman,87,soul,NA,46,NA,48,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,47,23.5,72.92592593,2,0
+dizzee rascal - raskit,98,grime,NA,NA,19,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19,19,72.92592593,1,0
+the clientele - music for the age of miracles,228,indie pop,NA,NA,NA,NA,NA,NA,NA,NA,19,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19,19,72.92592593,1,0
+calvin harris - funk wav bounces vol. 1,256,dance pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19,19,72.92592593,1,0
+men i trust - tailwhip ep,309,indie pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19,19,72.92592593,1,0
+awa poulo - poulo warali,374,afrobeat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19,NA,NA,NA,NA,NA,NA,NA,NA,NA,19,19,72.92592593,1,0
+diamanda galas - all the way,430,vocal jazz,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19,NA,NA,NA,NA,NA,NA,NA,NA,19,19,72.92592593,1,0
+chief keef - thot breaker,486,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19,NA,NA,19,19,72.92592593,1,0
+a will away - here again,516,pop punk,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19,NA,19,19,72.92592593,1,0
+bicep - bicep,243,deep house,NA,NA,NA,NA,NA,NA,NA,NA,NA,20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20,20,72.96296296,1,0
+rick ross - rather you than me,257,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20,20,72.96296296,1,0
+hater - you tried,310,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20,20,72.96296296,1,0
+bully - losing,517,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20,NA,20,20,72.96296296,1,0
+pond - the weather,49,synthpop,49,NA,NA,NA,NA,NA,NA,NA,47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48,24,73,2,0
+hannah peel - mary casio: journey to cassiopeia,192,indie pop,NA,NA,NA,NA,NA,NA,21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,21,21,73,1,0
+hoops - routines,311,jangle pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,21,21,73,1,0
+man forever - play what they want,351,post-rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,21,21,73,1,0
+children of alice - children of alice,432,electronic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,21,NA,NA,NA,NA,NA,NA,NA,NA,21,21,73,1,0
+soccer mommy - collection,479,indie pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,21,NA,NA,NA,21,21,73,1,0
+blis. - no one loves you,518,emo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,21,NA,21,21,73,1,0
+kodak black - painting pictures,258,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22,22,73.03703704,1,0
+kedr livanskiy - ariadna,312,hypnagogic pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22,22,73.03703704,1,0
+king woman - created in the image of suffering,331,sludge metal,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22,22,73.03703704,1,0
+madonnatron - madonnatron,352,alternative rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22,22,73.03703704,1,0
+strange u - #lp4080,433,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22,NA,NA,NA,NA,NA,NA,NA,NA,22,22,73.03703704,1,0
+differ-ent - it's good to be differ-ent,542,electronic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22,22,22,73.03703704,1,0
+chuck johnson - balsams,229,ambient,NA,NA,NA,NA,NA,NA,NA,NA,23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,23,23,73.07407407,1,0
+freddie gibbs - you only live 2wice,259,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,23,23,73.07407407,1,0
+julia lucille - chthonic,313,folk,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,23,23,73.07407407,1,0
+endon - through the mirror,353,avant-garde metal,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,23,23,73.07407407,1,0
+phew - voice hardcore,434,experimental,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,23,NA,NA,NA,NA,NA,NA,NA,NA,23,23,73.07407407,1,0
+v/a - twin peaks (music from the limited event series),488,lynchcore,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,23,NA,NA,23,23,73.07407407,1,0
+angelo badalamenti - twin peaks,489,classical,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,23,NA,NA,23,23,73.07407407,1,0
+king gizzard and the lizard wizard - murder of the universe,24,psychedelic rock,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24,24,73.11111111,1,0
+eyre llew - atelo,193,post-rock,NA,NA,NA,NA,NA,NA,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24,24,73.11111111,1,0
+hans zimmer - dunkirk ost,215,classical,NA,NA,NA,NA,NA,NA,NA,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24,24,73.11111111,1,0
+gucci mane - droptopwop,260,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24,24,73.11111111,1,0
+carly pearce - every little thing,377,country,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24,24,73.11111111,1,0
+elder - reflections of a floating world,388,stoner rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24,24,73.11111111,1,0
+tzusing - 東方不敗,417,techno,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,24,24,73.11111111,1,0
+greet death - dixieland,519,shoegaze,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24,NA,24,24,73.11111111,1,0
+justin walter - unseen forces,354,ambient,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,25,25,73.14814815,1,0
+hello skinny - watermelon sun,395,electronic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,25,NA,NA,NA,NA,NA,NA,NA,NA,NA,25,25,73.14814815,1,0
+aine o'dwyer - gallarais,435,experimental,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,25,NA,NA,NA,NA,NA,NA,NA,NA,25,25,73.14814815,1,0
+la santa cecilia - amar y vivir,461,folk,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,25,NA,NA,NA,NA,NA,25,25,73.14814815,1,0
+cool american - infinite hiatus,520,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,25,NA,25,25,73.14814815,1,0
+flat worms - flat worms,26,garage punk,26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26,26,73.18518519,1,0
+bleachers - gone now,153,pop rock,NA,NA,NA,NA,26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26,26,73.18518519,1,0
+tony allen - the source,170,afrobeat,NA,NA,NA,NA,NA,26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26,26,73.18518519,1,0
+anna of the north - lovers,314,synthpop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26,26,73.18518519,1,0
+bnnt - multiverse,355,noise rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26,26,73.18518519,1,0
+"lee ann womack - the lonely, the lonesome & the gone",462,country,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26,NA,NA,NA,NA,NA,26,26,73.18518519,1,0
+v/a - club chai vol. 1,490,electronic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26,NA,NA,26,26,73.18518519,1,0
+ratboys - gn,521,indie pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26,NA,26,26,73.18518519,1,0
+myrkur - mareridt,27,black metal,27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27,27,73.22222222,1,0
+she-devils - she-devils,315,indie pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27,27,73.22222222,1,0
+shit & shine - total shit!,356,electronic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27,27,73.22222222,1,0
+alison crutchfield - tourist in this town,373,indie pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27,27,73.22222222,1,0
+msafiri zawose - uhamiaji,406,electronic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27,NA,NA,NA,NA,NA,NA,NA,NA,NA,27,27,73.22222222,1,0
+saicobab - sab se purani bab,436,experimental,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27,NA,NA,NA,NA,NA,NA,NA,NA,27,27,73.22222222,1,0
+wild pink - wild pink,522,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27,NA,27,27,73.22222222,1,0
+"nidia minaj - nidia e ma, nidia e fudida",543,electronic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27,27,27,73.22222222,1,0
+the kickback - weddings and funerals,216,indie rock,NA,NA,NA,NA,NA,NA,NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28,28,73.25925926,1,0
+katie ellen - cowgirl blues,330,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28,28,73.25925926,1,0
+kuniyuki takahashi - newwave project,400,deep house,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,28,28,73.25925926,1,0
+ibeyi - ash,458,art pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28,NA,NA,NA,NA,NA,NA,28,28,73.25925926,1,0
+leo hoffsaes & loto retina - early contact,491,electronic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28,NA,NA,28,28,73.25925926,1,0
+everything everything - a fever dream,104,art pop,NA,NA,29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,29,73.2962963,1,0
+nai palm - needle paw,133,soul,NA,NA,NA,29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,29,73.2962963,1,0
+arcade fire - everything now,155,alternative dance,NA,NA,NA,NA,29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,29,73.2962963,1,0
+kweku collins - grey,217,hip hop,NA,NA,NA,NA,NA,NA,NA,29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,29,73.2962963,1,0
+michael chapman - 50,232,folk,NA,NA,NA,NA,NA,NA,NA,NA,29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,29,73.2962963,1,0
+washed out - mister mellow,316,chillwave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,29,73.2962963,1,0
+vanishing - vanishing,358,electronic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,29,73.2962963,1,0
+counterparts - you're not you anymore,382,metalcore,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,29,73.2962963,1,0
+fabiano do nascimento - tempo dos mestres,389,folk,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,29,73.2962963,1,0
+brooklyn raga massive - terry riley in c,437,classical,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,NA,NA,NA,NA,NA,NA,NA,NA,29,29,73.2962963,1,0
+half waif - form/a,480,art pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,NA,NA,NA,29,29,73.2962963,1,0
+cupcakke - queen elizabitch,492,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,NA,NA,29,29,73.2962963,1,0
+"fire is motion - still, i try",523,emo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,NA,29,29,73.2962963,1,0
+nabihah iqbal - weighing of the heart,544,alternative,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,29,29,73.2962963,1,0
+chris stapleton - from a room: volume 1,73,americana,NA,30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,30,30,73.33333333,1,0
+sote - sacred horror in design,438,electronic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,30,NA,NA,NA,NA,NA,NA,NA,NA,30,30,73.33333333,1,0
+ron miles - i am a man,463,jazz,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,30,NA,NA,NA,NA,NA,30,30,73.33333333,1,0
+lawrence english - cruel optimism,493,drone,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,30,NA,NA,30,30,73.33333333,1,0
+rose elinor dougall - stellular,31,indie pop,31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,31,31,73.37037037,1,0
+sonder - into,265,r&b,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,31,31,73.37037037,1,0
+jessie ware - glasshouse,473,pop soul,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,31,NA,NA,NA,NA,31,31,73.37037037,1,0
+the obsessives - the obsessives,524,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,31,NA,31,31,73.37037037,1,0
+tamikrest - kidal,172,rock,NA,NA,NA,NA,NA,32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,32,73.40740741,1,0
+colin stetson - all this i do for glory,195,avant-garde jazz,NA,NA,NA,NA,NA,NA,32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,32,73.40740741,1,0
+tori amos - native invader,218,singer-songwriter,NA,NA,NA,NA,NA,NA,NA,32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,32,73.40740741,1,0
+a$ap twelvyy - 12,266,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,32,73.40740741,1,0
+ragana - you take nothing,334,sludge metal,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,32,73.40740741,1,0
+dj seinfeld - time spent away from u,387,house,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,32,73.40740741,1,0
+sarah davachi - all my circles run,439,ambient,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,NA,NA,NA,NA,NA,NA,NA,NA,32,32,73.40740741,1,0
+curtis harding - face your fear,452,soul,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,NA,NA,NA,NA,NA,NA,NA,32,32,73.40740741,1,0
+khaki blazer - didn't have to cut,494,experimental,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,NA,NA,32,32,73.40740741,1,0
+rainforest spiritual enslavement - ambient black magic,545,ambient,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,32,32,73.40740741,1,0
+nadine khouri - the salted air,33,NA,33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,33,33,73.44444444,1,0
+penguin cafe - the imperfect sea,136,modern classical,NA,NA,NA,33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,33,33,73.44444444,1,0
+sevdaliza - ison,294,trip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,33,33,73.44444444,1,0
+luka productions - fasokan,404,new age,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,33,NA,NA,NA,NA,NA,NA,NA,NA,NA,33,33,73.44444444,1,0
+akio suzuki & john butcher - immediate landscapes,440,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,33,NA,NA,NA,NA,NA,NA,NA,NA,33,33,73.44444444,1,0
+tonu korvits - moorland elegies,464,classical,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,33,NA,NA,NA,NA,NA,33,33,73.44444444,1,0
+konrad sprenger - stack music,495,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,33,NA,NA,33,33,73.44444444,1,0
+smidley - smidley,525,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,33,NA,33,33,73.44444444,1,0
+the magnetic fields - 50 song memoir,173,indie pop,NA,NA,NA,NA,NA,34,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,34,34,73.48148148,1,0
+saint etienne - home counties,234,indie pop,NA,NA,NA,NA,NA,NA,NA,NA,34,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,34,34,73.48148148,1,0
+meek mill - wins & losses,267,trap rap,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,34,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,34,34,73.48148148,1,0
+re-tros - before the applause,359,post-punk,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,34,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,34,34,73.48148148,1,0
+incendiary - thousand mile stare,397,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,34,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,34,34,73.48148148,1,0
+tornado wallace - lonely planet,415,deep house,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,34,NA,NA,NA,NA,NA,NA,NA,NA,NA,34,34,73.48148148,1,0
+ty dolla $ign - beach house,474,r&b,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,34,NA,NA,NA,NA,34,34,73.48148148,1,0
+giant claw - soft channel,496,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,34,NA,NA,34,34,73.48148148,1,0
+"perspective, a lovely hand to hold - what not to do",526,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,34,NA,34,34,73.48148148,1,0
+the black angels - death song,35,psychedelic rock,35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,35,35,73.51851852,1,0
+bob dylan - triplicate,78,folk rock,NA,35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,35,35,73.51851852,1,0
+king gizzard and the lizard wizard - flying microtonal banana,235,psychedelic rock,NA,NA,NA,NA,NA,NA,NA,NA,35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,35,35,73.51851852,1,0
+dua lipa - dua lipa,268,electropop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,35,35,73.51851852,1,0
+"omar souleyman - to syria, with love",291,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,35,35,73.51851852,1,0
+land of talk - life after youth,401,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,35,35,73.51851852,1,0
+lomelda - thx,403,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,35,35,73.51851852,1,0
+ex eye - ex eye,475,avant-garde metal,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,35,NA,NA,NA,NA,35,35,73.51851852,1,0
+woopheadclrms - meeting room + rare plants,497,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,35,NA,NA,35,35,73.51851852,1,0
+harmony woods - nothing special,527,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,35,NA,35,35,73.51851852,1,0
+lindsey buckingham & christine mcvie - s/t,79,pop rock,NA,36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,36,73.55555556,1,0
+elbow - little fictions,109,art rock,NA,NA,36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,36,73.55555556,1,0
+melkbelly - nothing valley,138,noise rock,NA,NA,NA,36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,36,73.55555556,1,0
+"creeper - eternity, in your arms",158,pop punk,NA,NA,NA,NA,36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,36,73.55555556,1,0
+wire - silver/lead,174,post-punk,NA,NA,NA,NA,NA,36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,36,73.55555556,1,0
+amine - good for you,269,pop rap,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,36,73.55555556,1,0
+sassy 009 - do you mind,319,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,36,73.55555556,1,0
+kemper norton - hungan,360,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,36,73.55555556,1,0
+davy kehoe - short passing game,383,electronic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,36,73.55555556,1,0
+strand of oaks - hard love,412,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,36,73.55555556,1,0
+ariel pink - dedicated to bobby jameson,546,hypnagogic pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,36,36,73.55555556,1,0
+noel gallagher's flying birds - who built the moon?,80,pop rock,NA,37,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,37,37,73.59259259,1,0
+21 savage - issa album,270,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,37,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,37,37,73.59259259,1,0
+chloe x halle - the two of us,361,alternative r&b,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,37,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,37,37,73.59259259,1,0
+collocutor - the search,380,free improvisation,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,37,NA,NA,NA,NA,NA,NA,NA,NA,NA,37,37,73.59259259,1,0
+sadaf - shell,442,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,37,NA,NA,NA,NA,NA,NA,NA,NA,37,37,73.59259259,1,0
+washer - all aboard,528,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,37,NA,37,37,73.59259259,1,0
+umfang - symbolic use of light,547,techno,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,37,37,37,73.59259259,1,0
+royal blood - how did we get so dark?,38,hard rock,38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,38,73.62962963,1,0
+residente - residente,81,art pop,NA,38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,38,73.62962963,1,0
+trent reznor & atticus ross - before the flood,197,ambient,NA,NA,NA,NA,NA,NA,38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,38,73.62962963,1,0
+vic mensa - the autobiography,220,hip hop,NA,NA,NA,NA,NA,NA,NA,38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,38,73.62962963,1,0
+robyn hitchcock - robyn hitchcock,236,psychedelic pop,NA,NA,NA,NA,NA,NA,NA,NA,38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,38,73.62962963,1,0
+john mayer - the search for everything,271,pop rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,38,73.62962963,1,0
+hitmakerchinx - shades & monsters: fdm classics,285,dancehall,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,38,73.62962963,1,0
+you'll never get to heaven - images,321,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,38,73.62962963,1,0
+the granite shore - suspended second,362,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,38,73.62962963,1,0
+alex cameron - forced witness,481,synthpop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,NA,NA,NA,38,38,73.62962963,1,0
+upgrayedd smurphy - hypnosys,498,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,NA,NA,38,38,73.62962963,1,0
+walter etc. - gloom cruise,529,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,NA,38,38,73.62962963,1,0
+lost horizons - ojala,39,indie rock,39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,39,73.66666667,1,0
+kelley stoltz - que aura,176,NA,NA,NA,NA,NA,NA,39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,39,73.66666667,1,0
+young dolph - thinking out loud,272,trap rap,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,39,73.66666667,1,0
+dj sports - modern species,322,deep house,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,39,73.66666667,1,0
+mabel - ivy to roses,332,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,39,73.66666667,1,0
+the caretaker - everywhere at the end of time - stage 3,363,ambient,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,39,73.66666667,1,0
+benedek - bene's world,375,synth funk,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,39,73.66666667,1,0
+chris stapleton - from a room: volume 2,378,country,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,39,73.66666667,1,0
+heaven in her arms - white halo,394,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,39,73.66666667,1,0
+tyler childers - purgatory,465,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,NA,NA,NA,NA,NA,39,39,73.66666667,1,0
+brockhampton - saturation,530,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,NA,39,39,73.66666667,1,0
+brockhampton - saturation iii,531,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,NA,39,39,73.66666667,1,0
+gregg allman - southern blood,83,rock,NA,40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40,40,73.7037037,1,0
+"21 savage, offset & metro boomin - without warning",273,trap rap,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40,40,73.7037037,1,0
+the menzingers - after the party,336,punk rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40,40,73.7037037,1,0
+teleplasmiste - frequency is the new ecstasy,364,drone,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40,40,73.7037037,1,0
+delicate steve - this is steve,385,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40,40,73.7037037,1,0
+chicano batman - freedoman is free,453,pop rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40,NA,NA,NA,NA,NA,NA,NA,40,40,73.7037037,1,0
+midland - on the rocks,466,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40,NA,NA,NA,NA,NA,40,40,73.7037037,1,0
+mo troper - exposure & response,532,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40,NA,40,40,73.7037037,1,0
+endless boogie - vibe killer,177,NA,NA,NA,NA,NA,NA,41,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,41,41,73.74074074,1,0
+the mynahbirds - be here now,198,synthpop,NA,NA,NA,NA,NA,NA,41,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,41,41,73.74074074,1,0
+kyle dixon & michael stein - stranger things 2,222,synthwave,NA,NA,NA,NA,NA,NA,NA,41,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,41,41,73.74074074,1,0
+botanist - collective: the shape of he to come,365,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,41,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,41,41,73.74074074,1,0
+dego & kaidi - a so we gwarn,384,electronic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,41,NA,NA,NA,NA,NA,NA,NA,NA,NA,41,41,73.74074074,1,0
+oddisee - the iceberg,407,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,41,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,41,41,73.74074074,1,0
+travis meadows - first cigarette,416,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,41,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,41,41,73.74074074,1,0
+amnesia scanner - as truth,499,uk bass,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,41,NA,NA,41,41,73.74074074,1,0
+wiki - no mountains in man,533,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,41,NA,41,41,73.74074074,1,0
+blue iverson - hotep,283,r&b,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,42,42,73.77777778,1,0
+rex orange county - apricot princess,335,r&b,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,42,42,73.77777778,1,0
+british sea power - let the dancers inherit the party,366,indie rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,42,42,73.77777778,1,0
+hundreth - rare,396,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,42,42,73.77777778,1,0
+once & future band - once & future band,445,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,42,NA,NA,NA,NA,NA,NA,NA,NA,42,42,73.77777778,1,0
+pharmakon - contact,500,noise,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,42,NA,NA,42,42,73.77777778,1,0
+h. grimace - self architect,43,post-punk,43,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,43,43,73.81481481,1,0
+v/a - celebrate ornette,84,jazz,NA,43,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,43,43,73.81481481,1,0
+squeeze - the knowledge,115,pop rock,NA,NA,43,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,43,43,73.81481481,1,0
+david bazan - care,142,indie rock,NA,NA,NA,43,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,43,43,73.81481481,1,0
+emily haines & the soft skeleton - choir of the mind,199,singer-songwriter,NA,NA,NA,NA,NA,NA,43,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,43,43,73.81481481,1,0
+j.i.d. - the never story,275,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,43,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,43,43,73.81481481,1,0
+al-namrood - enkar,367,folk metal,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,43,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,43,43,73.81481481,1,0
+danay suarez - palabras manuales,467,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,43,NA,NA,NA,NA,NA,43,43,73.81481481,1,0
+otim alpha - gulu city anthems,548,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,43,43,43,73.81481481,1,0
+sallie ford - soul sick,143,NA,NA,NA,NA,44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,44,44,73.85185185,1,0
+kate bush - before the dawn,180,art pop,NA,NA,NA,NA,NA,44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,44,44,73.85185185,1,0
+jake xerxes fussell - what in the natural world,238,folk,NA,NA,NA,NA,NA,NA,NA,NA,44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,44,44,73.85185185,1,0
+luke reed - won't be there,323,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,44,44,73.85185185,1,0
+pancrace - pancrace,446,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,44,NA,NA,NA,NA,NA,NA,NA,NA,44,44,73.85185185,1,0
+marika hackman - i'm not your man,482,singer-songwriter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,44,NA,NA,NA,44,44,73.85185185,1,0
+toiret status - nyoi plunger,501,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,44,NA,NA,44,44,73.85185185,1,0
+sinai vessel - brokenlegged,534,emo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,44,NA,44,44,73.85185185,1,0
+tracy bonham - modern burdens,86,NA,NA,45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,45,45,73.88888889,1,0
+wand - plum,144,psychedelic rock,NA,NA,NA,45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,45,45,73.88888889,1,0
+jesca hoop - memories are now,201,indie folk,NA,NA,NA,NA,NA,NA,45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,45,45,73.88888889,1,0
+cyhi the prynce - no dope on sundays,276,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,45,45,73.88888889,1,0
+youngboy never broke again - a.i youngboy,338,trap rap,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,45,45,73.88888889,1,0
+guerilla toss - gt ultra,393,art pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,45,45,73.88888889,1,0
+foxygen - hang,454,progressive pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,45,NA,NA,NA,NA,NA,NA,NA,45,45,73.88888889,1,0
+bell witch - mirror reaper,502,doom metal,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,45,NA,NA,45,45,73.88888889,1,0
+the world is a beautiful place... - always foreign,535,emo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,45,NA,45,45,73.88888889,1,0
+katy perry - witness,202,dance pop,NA,NA,NA,NA,NA,NA,46,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,46,46,73.92592593,1,0
+hans zimmer & benjamin wallfisch - blade runner 2049,223,classical,NA,NA,NA,NA,NA,NA,NA,46,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,46,46,73.92592593,1,0
+little dragon - season high,247,electropop,NA,NA,NA,NA,NA,NA,NA,NA,NA,46,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,46,46,73.92592593,1,0
+mike cooper - raft,289,ambient,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,46,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,46,46,73.92592593,1,0
+the chopstars & barry jenkins - purple moonlight,324,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,46,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,46,46,73.92592593,1,0
+perc - bitter music,368,techno,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,46,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,46,46,73.92592593,1,0
+ted leo - the hanged man,413,power pop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,46,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,46,46,73.92592593,1,0
+mr. mitch - devout,468,alternative r&b,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,46,NA,NA,NA,NA,NA,46,46,73.92592593,1,0
+hercules and love affair - omnion,47,electropop,47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,47,47,73.96296296,1,0
+low cut connie - dirty pictures (part 1),88,NA,NA,47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,47,47,73.96296296,1,0
+kiran leonard - derevaun seraun,163,chamber pop,NA,NA,NA,NA,47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,47,47,73.96296296,1,0
+roger waters - is this the life we really want?,182,progressive rock,NA,NA,NA,NA,NA,47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,47,47,73.96296296,1,0
+clark - death peak,203,idm,NA,NA,NA,NA,NA,NA,47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,47,47,73.96296296,1,0
+the juju - exchange,224,NA,NA,NA,NA,NA,NA,NA,NA,47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,47,47,73.96296296,1,0
+gazelle twin - kingdom come,369,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,47,47,73.96296296,1,0
+roscoe mitchell - bells for the south side,447,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,47,NA,NA,NA,NA,NA,NA,NA,NA,47,47,73.96296296,1,0
+nmesh - pharma,503,vaporwave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,47,NA,NA,47,47,73.96296296,1,0
+jelani sei - lvndr twn,536,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,47,NA,47,47,73.96296296,1,0
+public service broadcasting - every valley,48,post-rock,48,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48,48,74,1,0
+chronixx - chronology,89,reggae,NA,48,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48,48,74,1,0
+grandaddy - last place,204,indie rock,NA,NA,NA,NA,NA,NA,48,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48,48,74,1,0
+lindstrom - it's alright between us as it is,240,nu-disco,NA,NA,NA,NA,NA,NA,NA,NA,48,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48,48,74,1,0
+haim - something to tell you,277,pop rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48,48,74,1,0
+pessimist - pessimist,292,drum and bass,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48,48,74,1,0
+gary numan - savage (songs from a broken world),370,industrial rock,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48,48,74,1,0
+blis. - no one loves you,376,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48,48,74,1,0
+carla dal forno - the garden,448,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48,NA,NA,NA,NA,NA,NA,NA,NA,48,48,74,1,0
+ibibio sound machine - uyai,455,afrobeat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48,NA,NA,NA,NA,NA,NA,NA,48,48,74,1,0
+miguel zenon - tipico,469,jazz,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48,NA,NA,NA,NA,NA,48,48,74,1,0
+tara jane o'neil - tara jane o'neil,504,singer-songwriter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48,NA,NA,48,48,74,1,0
+depeche mode - spirit,120,synthpop,NA,NA,49,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,49,74.03703704,1,0
+shelby lynne & allison moorer - not dark yet,147,americana,NA,NA,NA,49,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,49,74.03703704,1,0
+tired lion - dumb days,205,NA,NA,NA,NA,NA,NA,NA,49,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,49,74.03703704,1,0
+lil pump - lil pump,278,trap rap,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,49,74.03703704,1,0
+dave - game over,327,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,49,74.03703704,1,0
+joseph - shabason - aytche,329,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,49,74.03703704,1,0
+dj quik & problem - rosecrans,386,hip hop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,49,74.03703704,1,0
+vangelis katsoulis - if not now when,419,ambient,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,49,74.03703704,1,0
+maalem mahmoud gania - colours of the night,449,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,NA,NA,NA,NA,NA,NA,NA,NA,49,49,74.03703704,1,0
+sarah shook & the disarmers - sidelong,456,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,NA,NA,NA,NA,NA,NA,NA,49,49,74.03703704,1,0
+marc-andre hamelin - morton feldman: for bunita marcus,470,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,NA,NA,NA,NA,NA,49,49,74.03703704,1,0
+sun araw - the saddle of the increate,505,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,NA,NA,49,49,74.03703704,1,0
+heart attack man - the manson family,537,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,NA,49,49,74.03703704,1,0
+temples - volcano,50,neo-psychedelia,50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,50,50,74.07407407,1,0
+code orange - forever,91,metalcore,NA,50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,50,50,74.07407407,1,0
+pumarosa - the witch,121,indie rock,NA,NA,50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,50,50,74.07407407,1,0
+jd mcpherson - undivided heart & soul,148,rockabilly,NA,NA,NA,50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,50,50,74.07407407,1,0
+wrongtom & the ragga twins - in time,183,NA,NA,NA,NA,NA,NA,50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,50,50,74.07407407,1,0
+propagandhi - victory lap,333,hardcore punk,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,50,50,74.07407407,1,0
+alan vega - it,372,industrial,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,50,50,74.07407407,1,0
+gosheven - leaper,450,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,50,NA,NA,NA,NA,NA,NA,NA,NA,50,50,74.07407407,1,0
+caracara - summer megalith,538,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,50,NA,50,50,74.07407407,1,0
+nathan fake - providence,549,microhouse,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,50,50,50,74.07407407,1,0
