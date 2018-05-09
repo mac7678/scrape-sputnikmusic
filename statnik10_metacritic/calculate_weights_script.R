@@ -66,7 +66,7 @@ main_opt_weights <- function(X, y, weights, k){
 }
 
 ## Files/IO ----------
-fil <- './metacritic/publications_matrix.csv'
+fil <- './statnik10_metacritic/publications_matrix.csv'
 dat <- read_csv(fil)
 
 
@@ -103,5 +103,5 @@ plt <- ggplot(top_opt, aes(x=weights, fill = opt_type))+
   facet_wrap(~opt_type) +
   ggtitle('Histogram of Publication Weights')
 plt +
-  ggsave('./metacritic/weights_hist.jpg',height = 5, width = 10)
+  ggsave('./statnik10_metacritic/weights_hist.jpg',height = 5, width = 10)
              

@@ -22,10 +22,10 @@ boot_albs <- function(dat, weights = c(1,3,2,1)){
   return(dat)
 }
 # Script ----
-dat <- read_csv('2017_UserRatings.csv') %>%
+dat <- read_csv('./statnik7_joyplots/2017_UserRatings.csv') %>%
   mutate_if(is.numeric, ~ifelse(is.na(.x), 0, .x))
-dat_order <- read_csv('2017_UserRatings_order.csv')
-joy_dir <- './joyplots/'
+dat_order <- read_csv('./statnik7_joyplots/2017_UserRatings_order.csv')
+joy_dir <- './statnik7_joyplots/'
 if(!dir.exists(joy_dir)) dir.create(joy_dir)
 
 set.seed(01052018)
@@ -63,8 +63,7 @@ wes_plot <- ggplot(out, aes(x = w.mean, y = Band_Album, fill = Band_Album)) +
 wes_plot +
   ggsave(paste0(joy_dir, 'wes_joyplot.png'),height = 4, width = 8)
 
-# code modified from
-# https://github.com/alexwhan/alexwhan.github.io/blob/master/_source/2016-03-24-joy-division-plot.Rmd -----
+# code modified from https://github.com/alexwhan/alexwhan.github.io/blob/master/_source/2016-03-24-joy-division-plot.Rmd -----
 
 j3 <- out %>% 
   mutate(Band_Album = Band_Album %>% as.integer(),
@@ -107,7 +106,7 @@ p +
   ggsave(paste0(joy_dir, 'faithful_joyplot.png'),height = 9, width = 4)
 
 ## BONUS, Unknown Pleasure's JoyPlot ----
-joy_dat <- read_csv('Joy-Division-Unknown-Pleasures.csv') %>%
+joy_dat <- read_csv(paste0(joy_dir, 'Joy-Division-Unknown-Pleasures.csv')) %>%
   mutate(ratings = map_dbl(ratings, ~ifelse(.x %>% is.na(), 1L, .x)) %>% as.integer) %>%
   mutate_if(is.numeric, ~ifelse(is.na(.x), 0, .x))
 

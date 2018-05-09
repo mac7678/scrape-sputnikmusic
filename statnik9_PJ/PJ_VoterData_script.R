@@ -2,9 +2,9 @@ library(tidyverse)
 library(scales)
 
 ## files/io ----------
-pj <- read_csv('./PJ/PJ_vote.csv') %>%
+pj <- read_csv('./statnik9_PJ/PJ_vote.csv') %>%
   mutate(poll = 'P&J')
-sput <- read_csv('./PJ/Sput_vote.csv') %>%
+sput <- read_csv('./statnik9_PJ/Sput_vote.csv') %>%
   mutate(poll = 'Sput')
 
 ## exclude rule breakers ----
@@ -46,7 +46,7 @@ hist_plt <- hist_dat %>%
   ylab("Percent Frequency") +
   ggtitle('Histogram of Allotted Album Points')
 hist_plt +
-  ggsave('./PJ/Sput_PJ_PointsHist.jpg', height = 7.5, width = 10)
+  ggsave('./statnik9_PJ/Sput_PJ_PointsHist.jpg', height = 7.5, width = 10)
 
 ## categories ----
 cat_dat <- pj %>%
@@ -73,4 +73,4 @@ cat_plt <- cat_dat %>%
   ylab("Percent Frequency") +
   ggtitle('Bar Plot of Voter Types')
 cat_plt +
-  ggsave('./PJ/Sput_PJ_CategoryHist.jpg', height = 7.5, width = 10)
+  ggsave('./statnik9_PJ/Sput_PJ_CategoryHist.jpg', height = 7.5, width = 10)

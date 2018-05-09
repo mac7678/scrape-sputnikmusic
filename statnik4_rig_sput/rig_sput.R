@@ -1,23 +1,27 @@
 library(XML)
-library(dplyr)
-library(purrr)
+library(tidyverse)
+library(RCurl)
 ## sputfunctions -----------
-
+htmlParse_https <- function(link){
+  # Read page
+  page <- getURL(link)
+  obj <- htmlParse(page)
+}
 findSputURL_soundoffpage <- function(sputurl){ # find soundoffpage
-  links <- getHTMLLinks(sputurl)
+  links <- getHTMLLinks(htmlParse_https(sputurl))
   if(!is.na(links[grep('/soundoff',links)[1]])){
     links <- links[grep('/soundoff',links)[1]]
-    links <- paste0('http://www.sputnikmusic.com',links)
+    links <- paste0('https://www.sputnikmusic.com',links)
   }else{
     links <- sputurl
   }
   return(links)
 }
 findSputURL_band <- function(sputurl){ # find band page
-  links <- getHTMLLinks(sputurl)
+  links <- getHTMLLinks(htmlParse_https(sputurl))
   if(!is.na(links[grep('bands/',links)[1]])){
     links <- links[grep('bands/',links)[1]]
-    links <- paste0('http://www.sputnikmusic.com/',links)
+    links <- paste0('https://www.sputnikmusic.com/',links)
   }else{
     links <- sputurl
   }
@@ -78,7 +82,7 @@ scrape_soundoff <- function(obj,link,alldat=list(),getuser_metrics = TRUE){ # fu
                             "XMLInternalDocument",  "XMLAbstractDocument")) && is.character(obj)){
     link <- obj
     if(!grepl('/soundoff.php',obj)) stop('Character string provided is not a soundoff page')
-    obj <- htmlParse(obj)
+    obj <- htmlParse_https(obj)
   }
   if(!any(class(obj) %in% c("HTMLInternalDocument", "HTMLInternalDocument",
                             "XMLInternalDocument",  "XMLAbstractDocument")) && !is.character(obj)) {
@@ -96,7 +100,7 @@ scrape_soundoff <- function(obj,link,alldat=list(),getuser_metrics = TRUE){ # fu
     release.year <- as.numeric(tail(unlist(strsplit(unlist(lapply(xpathSApply(obj, "//b"),xmlToList)[[2]]),'/')),1))
   }
   dat<-readHTMLTable(obj,which = 1)
-  if(any(grepl('http:/',user_links))) user_links <- user_links[-grep('http:/',user_links)]
+  if(any(grepl('https:/',user_links))) user_links <- user_links[-grep('https:/',user_links)]
   dat$V2 <- as.character(dat$V2)
   names(dat)[1] <- 'Rating'
   dat <- dat[!is.na(dat$V2),]
@@ -154,7 +158,7 @@ userstat <- function(links,alldat=list()){
     thd <- alldat[substr(links,7,nchar(links)) == alldat$userlinks,c("ratings","reviews","lists", "comments")]
     thd <- thd[1,]
   }else{
-    tmp <- tryCatch(readHTMLTable(paste0('http://www.sputnikmusic.com',links),which=1), error=function(e) NULL)
+    tmp <- tryCatch(readHTMLTable(paste0('https://www.sputnikmusic.com',links),which=1), error=function(e) NULL)
     thd <- c()
     if(is.null(tmp)) {
       thd$ratings <- NaN
@@ -176,18 +180,18 @@ userstat <- function(links,alldat=list()){
   return(as.data.frame(thd))
 }
 scrapesput <- function(link,
-                       sput = 'http://www.sputnikmusic.com/',
+                       sput = 'https://www.sputnikmusic.com/',
                        alldat=list(),getuser_metrics = TRUE)
 { # preload dat with band/album/ and if previously found: genre tags
   genre <- readRDS('genre.rds')
   is_soundoff <- ifelse(grepl('/soundoff.php',link),1,0) # detect if soundoff page
   if(grepl(sput,link)) link <- paste0('/',tail(unlist(strsplit(link,sput)),1)) # grab href link
   if(!grepl(sput,link)) link_url <- paste0(sput,link) else link_url <- link # attach website to link
-  html_page <- htmlParse(findSputURL_soundoffpage(link_url)) # find soundoff page if it's an album link
+  html_page <- htmlParse_https(findSputURL_soundoffpage(link_url)) # find soundoff page if it's an album link
   # if(is.na(html_page)) return(NA)
   bandlink <- findSputURL_band(link_url) # find band page
   if(grepl('//bands//0/',bandlink)) return(data.frame()) 
-  band_page <- htmlParse(bandlink) # create an html object from bandlink
+  band_page <- htmlParse_https(bandlink) # create an html object from bandlink
   if(!link %in% getHTMLLinks(band_page) && !is_soundoff){
     return(data.frame())
   }else{
@@ -309,7 +313,7 @@ sput_rig <- function(album, points = 1L){
 ## Code to Rig the ratings -----
 
 # link of album to rig
-album <- 'http://www.sputnikmusic.com/album/67689/Universum-Mortuus-Machina/'
+album <- 'https://www.sputnikmusic.com/album/67689/Universum-Mortuus-Machina/'
 
-dat <- sput_rig(album, points = 20) # points is increment of rating ...
+dat <- sput_rig(album, points = 2) # points is increment of rating ...
 # i.e. going from 4.0 to 4.1 is a "points" increase of 1

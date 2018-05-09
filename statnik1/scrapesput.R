@@ -186,14 +186,6 @@ scrapesput <- function(link,sput = 'https://www.sputnikmusic.com/'){ # preload d
 # or from a soundoff page, but data returned from a soundoff page will miss band, album, and genre information
 
 
-
-
-
-# add to htmlparse's cafile <- system.file("CurlSSL", package = "RCurl");page <- GET(sputurl)
-
-
-
-
 sputurl <- 'https://www.sputnikmusic.com/album/14363/maudlin-of-the-Well-My-Fruit-Psychobells...-A-Seed-Combustible/'
 dat <- scrapesput(sputurl)
 # histogram of ratings

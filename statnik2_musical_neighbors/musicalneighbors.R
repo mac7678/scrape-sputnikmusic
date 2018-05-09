@@ -1,21 +1,20 @@
 # Musical Neighbors
-library(dplyr)
+library(tidyverse)
 library(XML)
+library(RCurl)
 
 ####------ Functions ------#####
 strsplit_last <- Vectorize(function(x) tail(unlist(strsplit(x,'/')),1),USE.NAMES = FALSE)
 htmlParse_https <- function(link){
-  cafile <- system.file("CurlSSL", package = "RCurl")
   # Read page
-  page <- GET(link,
-              config(cainfo = cafile))
+  page <- getURL(link)
   obj <- htmlParse(page)
 }
 find_user <- function(user){ # find users rating page
-  sput <- 'http://www.sputnikmusic.com/user/'
+  sput <- 'https://www.sputnikmusic.com/user/'
   site_links <- getHTMLLinks(htmlParse_https(paste0(sput,user)))
   userid <- tail(unlist(strsplit(grep('/uservote.php',site_links,value = TRUE),'=')),1)
-  ratepage <- paste0('http://www.sputnikmusic.com/uservote.php?sort=1&memberid=',userid)
+  ratepage <- paste0('https://www.sputnikmusic.com/uservote.php?sort=1&memberid=',userid)
   return(ratepage)
 }
 get_ratings <- function(siteobj){ # get the ratings from the page
@@ -31,7 +30,7 @@ get_albums <- function(siteobj){ # get album names from the page
 }
 scrape_user <- function(user){ # get album and rating information from a user
   if(!is.character(user)) stop("*user* has to be a character string")
-  user_site <- find_user(user)
+  user_site <- find_user(user) %>% str_replace('^http:', 'https:')
   # find the easiest table to load and then get links from
   siteobj <- htmlParse_https(user_site)
   dat <- list(user = user, Rating = get_ratings(siteobj),album = get_albums(siteobj))

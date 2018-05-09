@@ -35,25 +35,25 @@ get_lower_tri<-function(cormat){
 #   select(which(!grepl('^X[0-9]',names(.)))) %>%
 #   mutate(ALBUM= str_to_lower(ALBUM))# read data
 #####################################################
+aoty_dir <- './statnik8_AOTY_Spreadsheet/'
+year_links <- read_csv(str_c(aoty_dir, 'AOTY_ListsInfo_2017.csv'))
+year_dat <- read_csv(str_c(aoty_dir, 'AOTY_2017.csv'))
 
-year_links <- read_csv('./AOTY_Spreadsheet/AOTY_ListsInfo_2017.csv')
-year_dat <- read_csv('./AOTY_Spreadsheet/AOTY_2017.csv')
-
-user_year_dat <- read_csv('./AOTY_Spreadsheet/sput_year_end_lists_2017.csv') %>% 
+user_year_dat <- read_csv(str_c(aoty_dir, 'sput_year_end_lists_2017.csv')) %>% 
   mutate(Band_Album = paste(band, 
                             album, sep = ' - ') %>% 
            str_to_lower()) %>%
   filter(staff == FALSE) %>%
   select(Band_Album, rank)
 
-staff_year_dat <- read_csv('./AOTY_Spreadsheet/sput_year_end_lists_2017.csv') %>% 
+staff_year_dat <- read_csv(str_c(aoty_dir, 'sput_year_end_lists_2017.csv')) %>% 
   mutate(Band_Album = paste(band, 
                             album, sep = ' - ') %>% 
            str_to_lower()) %>%
   filter(staff == TRUE) %>%
   select(Band_Album, rank)
 
-rating_dat <- read_csv('./AOTY_Spreadsheet/2017_AllRatings.csv') %>%
+rating_dat <- read_csv(str_c(aoty_dir, '2017_AllRatings.csv')) %>%
   mutate(Band_Album = paste(Band, 
                             Album, sep = ' - ') %>% 
            str_to_lower()) %>%
@@ -147,7 +147,7 @@ cos_plot <- ggplot(data = cos_mat, aes(List1, List2, fill = Cosine_sim))+
   ggtitle('Cosine Similarity Matrix Plot') 
 print(cos_plot)
 cos_plot +
-  ggsave('./AOTY_Spreadsheet/cos_sim.png', height = 10, width = 8.6)
+  ggsave(str_c(aoty_dir, 'cos_sim.png'), height = 10, width = 8.6)
 
 cos_mat %>% 
   arrange(-Cosine_sim) %>%
