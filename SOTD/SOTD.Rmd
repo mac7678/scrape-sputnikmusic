@@ -1,0 +1,188 @@
+---
+title: "Plotting the Song of the Day"
+author: "macman76"
+date: "August 5, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Song of the Day
+
+I was asked by user bgillesp to do some data stuff for the song of the day lists that neekafat has been putting together. Unless I'm missing something, a user nominates a song, a song is assigned for every day of a month, and any user has 4 days from the song's allotted day to give it a rating from 1 to 5 with the staff-privileged .1 point increments (it's a power you users need to be careful with).
+
+I wanted to try something new for this, so instead of publishing this as a Statnik, it will be an rmarkdown notebook. I'll walk you threw what the code does as well as what you can do to apply this code to other months of this spreadsheet.
+
+To get started you need to install R, a good place to find it is here in the cloud mirror: https://cloud.r-project.org/. I use Rstudio as well, which you can get [here](https://www.rstudio.com/products/rstudio/download/).
+
+So, R has a package that interfaces with the Google API to help ease your access to Google sheets (github [here](https://github.com/jennybc/googlesheets)). It is my understanding that in order to use it you need a gmail account, and you need to verify with your Google account that you want to give R access to your account which you must do if you want to be able to download the data with R. 
+
+The following code loads the required packages (of which, in my use of R, tidyverse is always essential), and then reads the Song of the Day Google sheets as an object.
+
+```{r gsheet, results='hide', message=FALSE, warning=F}
+library(tidyverse)
+library(googlesheets)
+
+gsite <- 'https://docs.google.com/spreadsheets/d/1yo9Aj7t1IZwG41xFgX9kzIugIsVckENq5RnQace1WDw/edit#gid=0'
+gsheet <- gs_url(gsite, lookup = T)
+```
+
+The data from the Google sheet can be loaded into R, a specific `wkst` selected, the first 4 rows removed, and then transformed a bit so that it can be converted into a data.frame which is a very useful data class in R that makes working with rectangular data of this sort simple.
+
+```{r cleaining, message=FALSE, warning=F}
+wkst = 'July'
+dat <- gsheet %>% 
+  gs_read(ws = wkst, range = cell_rows(5:1000)) %>%
+  .[-1, ] %>%
+  set_names(c('Month', 'Day', 'Songs', names(.)[4:length(.)]))
+head(dat[, 1:10]) %>% knitr::kable() # prints first 6 rows of the google sheet
+```
+
+At this point, the data has 1 row for each song, contains information about what date it was nominated for, a column for each user that voted, and statistics on the ratings given for each album. (Printed data is the first 6 rows and first 10 columns).
+
+No disrespect to whomever put together the Google sheet, but is not tidy (as tha God Hadley would [say](https://cran.r-project.org/web/packages/tidyverse/vignettes/manifesto.html)). It's not your fault, however, since you're audience for this is not someone who planned on doing an analysis on it. As a result, the following large chunk of code has to be applied to the data so that (1) the nominating user of a song can be put in their own column (2) an incremented number indicating the nth nomination of a song that user has done (3) the Song column can have the username removed from it (4) the Song names themselves can be abbreviated to 20 characters (5) the columns can be rearranged in a more aesthetic/pragmatic order (6) the "X" placeholder for the nominating user can be removed to facilitate treating each user rating column as a numeric column (7) and the statistics columns can be removed (unimportant for this particular analysis).
+
+(Note to who runs the Google sheet, keep everything about the July sheet as exactly the same as you can for this work on future months. The amount of user columns and song rows can vary, but try to keep everything else the same.)
+```{r}
+dat <- dat %>%
+  mutate(Songs = str_trim(Songs), 
+         nom_user = str_extract_all(Songs, '[(].*[)]') %>%
+           map(~ .x %>% 
+                 unlist() %>% 
+                 tail(1) %>% 
+                 str_replace_all('[(]|[)]', '')) %>% 
+           str_split(' - ', simplify = T) %>% .[,1],           # step 1
+         nom_num = str_extract(Songs, ' - \\w.*') %>%
+           str_replace_all('\\W|[A-z]', '') %>%
+           ifelse(is.na(.), '1', .) %>% as.numeric(),          # step 2
+         Songs = str_replace(Songs, ' [(](\\w| |-)+[)]$', ''), # step 3
+         Songs = abbreviate(Songs, 20)) %>%                    # step 4
+  select(c('Month', 'Day', 'Songs', 
+           nom_user, nom_num, everything())) %>%               # step 5
+  mutate_at(names(.)[6:length(.)], 
+            ~ ifelse(grepl('^x$', .x,
+                           ignore.case = T), NA, .x) %>%
+              as.numeric()) %>%                                # step 6
+  select(-c('Averages', 'Vote count', 'Std. Dev.'))            # step 7
+head(dat[, 1:10]) %>% knitr::kable()
+  
+```
+
+## Correlation Plots
+At this point you can move on to making plots of similarity between users (which users had ratings that seemed to go together) and songs (which songs had similar ratings). In order to prepare the data for that the user ratings have to be isolated with the following:
+
+```{r for_cor}
+dat_matrix <- dat[, 6:length(dat)] %>%
+  select_if( ~ sum(is.na(.x), na.rm = T) < 10) # filter users that had less than 10 songs rated
+dat_names <- list(dat$Songs, names(dat_matrix))
+dat_matrix <- dat_matrix %>% as.matrix()
+rownames(dat_matrix) <- dat_names[[1]]
+colnames(dat_matrix) <- dat_names[[2]]
+```
+
+Following that correlations can be performed between pairwise users' ratings. [Correlations](https://en.wikipedia.org/wiki/Correlation_and_dependence) aren't always easy to [interpret](http://lineardigressions.com/episodes/2017/6/18/anscombes-quartet), but essentially they are the relationship between two sets of variables. They range in value from -1 to 1 with 1 indicating that two variables are strongly positively associated meaning that when one variable has a relatively high value the other variable does as well and when one is low the other is too. When a correlation value is near -1 that means that when one variable is high, the other is low and vice versa. When a value is near zero, it means that there is no association between the values of the variables (when plotted in a two dimensional graph, they appear to look like a blob of points.)
+
+The correlation plot for the users of this particular `wkst` is as follows:
+```{r user_cor, warning=F, message=F, out.width = '80%'}
+library(reshape2)
+get_lower_tri<-function(cormat){
+  # from http://www.sthda.com/english/wiki/ggplot2-quick-correlation-matrix-heatmap-r-software-and-data-visualization
+  cormat[upper.tri(cormat)] <- NA
+  return(cormat)
+}
+sim_matrix <- cor(dat_matrix %>% 
+                    replace(. == 0, NA), 
+                  use = 'pairwise.complete.obs') %>%
+  replace(. == 1, NA) %>%
+  get_lower_tri() %>% # replace upper triangle with NA's
+  melt() %>%
+  set_names(c('User.L', 'User.R', 'cos_sim')) 
+
+user_cor_plot <- ggplot(data = sim_matrix, 
+                   aes(User.L, User.R, fill = cos_sim))+
+  geom_tile(color = "white",na.rm = TRUE) +
+  scale_fill_gradient2(limit = c(-1,1),
+                       name = 'Correlation') +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 40, vjust = 1, 
+                                   size = 9, hjust = 1),
+        axis.title.y = element_blank(),
+        axis.title.x = element_blank()) +
+  coord_fixed() + 
+  ggtitle('User Correlation Matrix Plot') 
+print(user_cor_plot)
+
+```
+
+And for songs:
+
+```{r, warning=F, out.width = '80%'}
+sim_matrix <- cor(dat_matrix %>% 
+                    replace(. == 0, NA) %>%
+                    t(), 
+                  use = 'pairwise.complete.obs') %>%
+  replace(. == 1, NA) %>%
+  get_lower_tri() %>% # replace upper triangle with NA's
+  melt() %>%
+  set_names(c('Song.L', 'Song.R', 'cos_sim')) 
+
+song_cor_plot <- ggplot(data = sim_matrix, 
+                   aes(Song.L, Song.R, fill = cos_sim))+
+  geom_tile(color = "white",na.rm = TRUE) +
+  scale_fill_gradient2(limit = c(-1,1),
+                       name = 'Similarity') +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 40, vjust = 1, 
+                                   size = 9, hjust = 1),
+        axis.title.y = element_blank(),
+        axis.title.x = element_blank()) +
+  coord_fixed() + 
+  ggtitle('Song Correlation Matrix Plot') 
+print(song_cor_plot)
+```
+
+## Other Song and User Plots
+To round this off, here are some other fun plots.
+
+Each users' ratings per day of the `wkst`:
+
+```{r user_time_plot, warning=F, message=F, echo=F, fig.height = 12, out.width = '80%'}
+library(lubridate)
+dat %>%
+  mutate_at(names(.)[6:length(.)], 
+            ~ ifelse(.x == 0, NA, .x) %>%
+              as.numeric()) %>%
+  mutate(date = paste(Month[1], Day, today() %>% year, sep = '/') %>%
+           mdy()) %>%
+  gather(User, Rating, names(dat)[6:length(dat)]) %>%
+  ggplot(aes(date, Rating, color = User)) +
+  facet_wrap(~ User, ncol = 3) +
+  geom_point() +
+  geom_line() +
+  ggtitle(sprintf("Boxplot of %s's song ratings per user", wkst)) +
+  theme(legend.position="none")
+```
+
+A box plot of the user ratings for each song:
+
+```{r song_boxplot, warning=F, message=F, echo=F}
+dat %>%
+  mutate_at(names(.)[6:length(.)], 
+            ~ ifelse(.x == 0, NA, .x) %>%
+              as.numeric()) %>%
+  mutate(date = paste(Month[1], Day, today() %>% year, sep = '/') %>%
+           mdy(),
+         Songs = factor(Songs, ordered = T, levels = Songs)) %>%
+  gather(User, Rating, names(dat)[6:length(dat)]) %>%
+  ggplot(aes(Songs, Rating, color = Songs)) +
+  geom_boxplot() +
+  theme(axis.text.x = element_text(angle = 40, vjust = 1, 
+                                   size = 10, hjust = 1),
+        legend.position="none") +
+  ggtitle(sprintf("Boxplot of %s's song ratings in order of nomination", wkst))
+
+```
+
+If you all can think of anything else, I can update this notebook.
